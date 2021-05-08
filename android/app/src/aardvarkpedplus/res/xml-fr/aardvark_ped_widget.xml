@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<appwidget-provider
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="280dp"
+    android:updatePeriodMillis="1000"
+    android:minHeight="@dimen/widget_min_height"
+    android:initialLayout="@layout/aardvark_ped_widget"
+    android:widgetCategory="home_screen|keyguard"
+    android:initialKeyguardLayout="@layout/aardvark_ped_keyguard">
+    android:configure="com.aardvark_visual.ped.aardvarkpedwidget.AardvarkPedWidgetActivity"
+</appwidget-provider>

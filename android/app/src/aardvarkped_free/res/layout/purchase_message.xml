@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:amazon="http://schemas.amazon.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".AardvarkPedAnalysis$PlaceholderFragment"
+    android:padding="0dp">
+
+      <LinearLayout
+            android:id="@+id/feature_unavailable"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="1" >
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/feature_unavailable_message"
+            android:id="@+id/textView"
+            android:layout_gravity="center"
+            android:linksClickable="true"
+            android:autoLink="all"
+            android:gravity="center"
+            android:layout_centerInParent="true" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/pageMockup"
+                android:src="@drawable/step_cadence_unavailable"
+                android:layout_gravity="center_horizontal" />
+
+      </LinearLayout>
+
+
+</RelativeLayout>

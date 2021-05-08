@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="step_retention_time_min_value_idx" type="integer">0</item>
+    <item name="step_retention_time_max_value_idx" type="integer">6</item>
+    <item name="step_retention_time_default_value_idx" type="integer">6</item>
+    <item name="stride_length_min_value_idx_english" type="integer">0</item>
+    <item name="stride_length_max_value_idx_english" type="integer">124</item>
+    <item name="stride_length_default_value_idx_english" type="integer">21</item>
+    <item name="stride_length_min_value_idx_metric" type="integer">0</item>
+    <item name="stride_length_max_value_idx_metric" type="integer">159</item>
+    <item name="stride_length_default_value_idx_metric" type="integer">18</item>
+</resources>

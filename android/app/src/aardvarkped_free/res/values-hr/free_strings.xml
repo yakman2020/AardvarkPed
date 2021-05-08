@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feature_unavailable_message">Ova značajka nije dostupna u slobodan inačici.\nDa biste koristili ovu značajku, idite na plaćeni verzija Aardvark pedometar na\n<a href="http://www.aardvarkvisualsoftware.com">www.aardvarkvisualsoftware.com</a> </string>
+</resources>

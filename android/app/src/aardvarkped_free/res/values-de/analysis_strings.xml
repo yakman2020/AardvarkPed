@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aardvark Schrittzähler Frei</string>
+    <string name="title_section1">Schritte pro Stunde</string>
+    <string name="title_section2">Schritte pro Tag</string>
+    <string name="title_section3">Entfernung pro Stunde</string>
+    <string name="title_section4">Entfernung pro Tag</string>
+    <string name="title_section5">Schritt Kadenz</string>
+    <string name="title_section6">Aardvark Ped Einstellungen</string>
+    <string name="action_stopservice">Zähleranschlag</string>
+    <string name="action_startservice">Zählerstart</string>
+    <string name="action_importstepfile">Import Step data from Archive File</string>
+    <string name="action_exportstepfile">Export Step data to Archive File</string>
+    <string name="action_selectimportfile">Select file to import</string>
+    <string name="action_selectexportfile">Select file for export</string>
+    <string name="pref_step_counter">Bevorzugen integrierten\nSchrittzähler</string>
+    <string name="pref_step_counter_summary">Verwenden des Geräts eingebauten Schrittzähler anstelle des Aardvark-Zähler, wenn es verfügbar ist.</string>
+    <string name="aardvark_about_summary">Aardvark Ped Analysis version 1.0\n&#169;copyright 2015 Aardvark Visual Software</string>
+    <string name="aardvark_build_id">Undefined</string>
+    <string name="pref_step_retention_time_title">Löschen Schritt Daten nach</string>
+    <string name="pref_stride_length_title">Schrittlänge</string>
+    <string name="stride_length_summary_english">"Schrittlänge in Inche\n(für die Abstandsberechnung)"</string>
+    <string name="stride_length_summary_metric">"Schrittlänge in cm\n (für die Abstandsberechnung)"</string>
+    <string name="measurement_system_title">Maßsystem</string>
+    <string name="measurement_system_default">metric</string>
+    <string name="measurement_system_summary">Wählen US (Inche und Meilen) oder Metrik (Cm und Km)</string>
+    <string name="miles">Meilen</string>
+    <string name="kilometers">Kilometer</string>
+    <string name="archive_data_title">Archivieren Sie alte Schritt Logeinträge</string>
+    <string name="archive_data_summary">When step data is cleared, archive the old data or just clear it? </string>
+    <string name="pref_scan_heart_rate">Scan für Herzfrequenz-Geräte</string>
+    <string name="pref_scan_heart_rate_summary">Scan for bluetooth heart rate devices</string>
+</resources>

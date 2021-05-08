@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Βηματόμετρο Αρντβαρκ</string>
+    <string name="title_section1">Βήματα ανά ώρα</string>
+    <string name="title_section2">Βήματα ανά ημέρα</string>
+    <string name="title_section3">Απόσταση ανά ώρα</string>
+    <string name="title_section4">Απόσταση ανά ημέρα</string>
+    <string name="title_section5">βήμα ρυθμός</string>
+    <string name="title_section6">ρυθμίσεις για βηματόμετρο Αρντβαρκ</string>
+    <string name="action_stopservice">Διακοπή υπηρεσίας Αρντβαρκ</string>
+    <string name="action_startservice">Έναρξη υπηρεσίας Αρντβαρκ</string>
+    <string name="action_importstepfile">Import Step data from Archive File</string>
+    <string name="action_exportstepfile">Export Step data to Archive File</string>
+    <string name="action_selectimportfile">Select file to import</string>
+    <string name="action_selectexportfile">Select file for export</string>
+    <string name="pref_step_counter">Προτιμάτε ολοκληρωμένη βηματόμετρο αυτής της συσκευής</string>
+    <string name="pref_step_counter_summary">Μήπως προτιμάτε να χρησιμοποιείτε το ενσωματωμένο βηματόμετρο σε αυτή τη συσκευή, ή το Αρντβαρκ βηματόμετρο?</string>
+    <string name="aardvark_about_summary">Aardvark Ped Analysis version 1.0\n&#169;copyright 2015 Aardvark Visual Software</string>
+    <string name="aardvark_build_id">Undefined</string>
+    <string name="pref_step_retention_time_title">Δεδομένων στο αρχείο καταγραφής βήμα διαγράφεται μετά από </string>
+    <string name="pref_stride_length_title">βήμα μήκος</string>
+    <string name="stride_length_summary_english">Μήκος βήματος σε ίντσες\n(Αυτό χρησιμοποιείται για τον υπολογισμό της απόστασης)</string>
+    <string name="stride_length_summary_metric">Μήκος βήματος σε εκατοστά\n(Αυτό χρησιμοποιείται για τον υπολογισμό της απόστασης)</string>
+    <string name="measurement_system_title">Σύστημα μέτρησης</string>
+    <string name="measurement_system_default">metric</string>
+    <string name="measurement_system_summary">Επιλέξτε από το σύστημα των ΗΠΑ (ίντσες και μίλια) ή μετρικό (εκατοστά και χιλιόμετρα)</string>
+    <string name="miles">μίλια</string>
+    <string name="kilometers">χιλιόμετρα</string>
+    <string name="archive_data_title">Αρχείο παλιά δεδομένα των βημάτων</string>
+    <string name="archive_data_summary">Όταν καταργείτε τα παλιά δεδομένα βήμα, αρχείο τα παλιά δεδομένα ή ακριβώς να το καθαρίσουν</string>
+    <string name="pref_scan_heart_rate">Σάρωση για συσκευές καρδιακού ρυθμού</string>
+    <string name="pref_scan_heart_rate_summary">Σάρωση για bluetooth συσκευές καρδιακό ρυθμό</string>
+    <string name="scan_confirm">Ξεκινήστε τη σάρωση για συσκευές Bluetooth καρδιακού ρυθμού;</string>
+    <string name="scan_confirm_text">Σάρωση για συσκευές Bluetooth καρδιά ρυθμό, θα χρειαστούν αρκετά λεπτά \ n Οι επί του παρόντος γνωστές συσκευές είναι.:</string>
+</resources>

@@ -1,0 +1,332 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* build.xml
+* build/
+* build/bin/
+* build/bin/org/
+* build/bin/org/achartengine/
+* build/bin/org/achartengine/ChartFactory.class
+* build/bin/org/achartengine/GraphicalActivity.class
+* build/bin/org/achartengine/GraphicalView$1.class
+* build/bin/org/achartengine/GraphicalView$2.class
+* build/bin/org/achartengine/GraphicalView.class
+* build/bin/org/achartengine/ITouchHandler.class
+* build/bin/org/achartengine/TouchHandler.class
+* build/bin/org/achartengine/TouchHandlerOld.class
+* build/bin/org/achartengine/chart/
+* build/bin/org/achartengine/chart/AbstractChart.class
+* build/bin/org/achartengine/chart/BarChart$Type.class
+* build/bin/org/achartengine/chart/BarChart.class
+* build/bin/org/achartengine/chart/BubbleChart.class
+* build/bin/org/achartengine/chart/ClickableArea.class
+* build/bin/org/achartengine/chart/CombinedXYChart$XYCombinedChartDef.class
+* build/bin/org/achartengine/chart/CombinedXYChart.class
+* build/bin/org/achartengine/chart/CubicLineChart.class
+* build/bin/org/achartengine/chart/DialChart.class
+* build/bin/org/achartengine/chart/DoughnutChart.class
+* build/bin/org/achartengine/chart/LineChart$1.class
+* build/bin/org/achartengine/chart/LineChart.class
+* build/bin/org/achartengine/chart/PieChart.class
+* build/bin/org/achartengine/chart/PieMapper.class
+* build/bin/org/achartengine/chart/PieSegment.class
+* build/bin/org/achartengine/chart/PointStyle.class
+* build/bin/org/achartengine/chart/RangeBarChart.class
+* build/bin/org/achartengine/chart/RangeStackedBarChart.class
+* build/bin/org/achartengine/chart/RoundChart.class
+* build/bin/org/achartengine/chart/ScatterChart$1.class
+* build/bin/org/achartengine/chart/ScatterChart.class
+* build/bin/org/achartengine/chart/TimeChart.class
+* build/bin/org/achartengine/chart/XYChart.class
+* build/bin/org/achartengine/image/
+* build/bin/org/achartengine/image/zoom-1.png
+* build/bin/org/achartengine/image/zoom_in.png
+* build/bin/org/achartengine/image/zoom_out.png
+* build/bin/org/achartengine/model/
+* build/bin/org/achartengine/model/CategorySeries.class
+* build/bin/org/achartengine/model/MultipleCategorySeries.class
+* build/bin/org/achartengine/model/Point.class
+* build/bin/org/achartengine/model/RangeCategorySeries.class
+* build/bin/org/achartengine/model/SeriesSelection.class
+* build/bin/org/achartengine/model/TimeSeries.class
+* build/bin/org/achartengine/model/XYMultipleSeriesDataset.class
+* build/bin/org/achartengine/model/XYSeries.class
+* build/bin/org/achartengine/model/XYValueSeries.class
+* build/bin/org/achartengine/renderer/
+* build/bin/org/achartengine/renderer/BasicStroke.class
+* build/bin/org/achartengine/renderer/DefaultRenderer.class
+* build/bin/org/achartengine/renderer/DialRenderer$Type.class
+* build/bin/org/achartengine/renderer/DialRenderer.class
+* build/bin/org/achartengine/renderer/SimpleSeriesRenderer.class
+* build/bin/org/achartengine/renderer/XYMultipleSeriesRenderer$Orientation.class
+* build/bin/org/achartengine/renderer/XYMultipleSeriesRenderer.class
+* build/bin/org/achartengine/renderer/XYSeriesRenderer$FillOutsideLine$Type.class
+* build/bin/org/achartengine/renderer/XYSeriesRenderer$FillOutsideLine.class
+* build/bin/org/achartengine/renderer/XYSeriesRenderer.class
+* build/bin/org/achartengine/tools/
+* build/bin/org/achartengine/tools/AbstractTool.class
+* build/bin/org/achartengine/tools/FitZoom.class
+* build/bin/org/achartengine/tools/Pan.class
+* build/bin/org/achartengine/tools/PanListener.class
+* build/bin/org/achartengine/tools/Zoom.class
+* build/bin/org/achartengine/tools/ZoomEvent.class
+* build/bin/org/achartengine/tools/ZoomListener.class
+* build/bin/org/achartengine/util/
+* build/bin/org/achartengine/util/IndexXYMap.class
+* build/bin/org/achartengine/util/MathHelper.class
+* build/bin/org/achartengine/util/XYEntry.class
+* build/dist/
+* build/dist/achartengine-1.2.0-demo-source.zip
+* build/dist/achartengine-1.2.0-javadocs.zip
+* build/dist/achartengine-1.2.0.jar
+* build/docs/
+* build/docs/allclasses-frame.html
+* build/docs/allclasses-noframe.html
+* build/docs/constant-values.html
+* build/docs/deprecated-list.html
+* build/docs/help-doc.html
+* build/docs/index-all.html
+* build/docs/index.html
+* build/docs/org/
+* build/docs/org/achartengine/
+* build/docs/org/achartengine/ChartFactory.html
+* build/docs/org/achartengine/GraphicalActivity.html
+* build/docs/org/achartengine/GraphicalView.html
+* build/docs/org/achartengine/ITouchHandler.html
+* build/docs/org/achartengine/TouchHandler.html
+* build/docs/org/achartengine/TouchHandlerOld.html
+* build/docs/org/achartengine/chart/
+* build/docs/org/achartengine/chart/AbstractChart.html
+* build/docs/org/achartengine/chart/BarChart.Type.html
+* build/docs/org/achartengine/chart/BarChart.html
+* build/docs/org/achartengine/chart/BubbleChart.html
+* build/docs/org/achartengine/chart/ClickableArea.html
+* build/docs/org/achartengine/chart/CombinedXYChart.XYCombinedChartDef.html
+* build/docs/org/achartengine/chart/CombinedXYChart.html
+* build/docs/org/achartengine/chart/CubicLineChart.html
+* build/docs/org/achartengine/chart/DialChart.html
+* build/docs/org/achartengine/chart/DoughnutChart.html
+* build/docs/org/achartengine/chart/LineChart.html
+* build/docs/org/achartengine/chart/PieChart.html
+* build/docs/org/achartengine/chart/PieMapper.html
+* build/docs/org/achartengine/chart/PieSegment.html
+* build/docs/org/achartengine/chart/PointStyle.html
+* build/docs/org/achartengine/chart/RangeBarChart.html
+* build/docs/org/achartengine/chart/RangeStackedBarChart.html
+* build/docs/org/achartengine/chart/RoundChart.html
+* build/docs/org/achartengine/chart/ScatterChart.html
+* build/docs/org/achartengine/chart/TimeChart.html
+* build/docs/org/achartengine/chart/XYChart.html
+* build/docs/org/achartengine/chart/class-use/
+* build/docs/org/achartengine/chart/class-use/AbstractChart.html
+* build/docs/org/achartengine/chart/class-use/BarChart.Type.html
+* build/docs/org/achartengine/chart/class-use/BarChart.html
+* build/docs/org/achartengine/chart/class-use/BubbleChart.html
+* build/docs/org/achartengine/chart/class-use/ClickableArea.html
+* build/docs/org/achartengine/chart/class-use/CombinedXYChart.XYCombinedChartDef.html
+* build/docs/org/achartengine/chart/class-use/CombinedXYChart.html
+* build/docs/org/achartengine/chart/class-use/CubicLineChart.html
+* build/docs/org/achartengine/chart/class-use/DialChart.html
+* build/docs/org/achartengine/chart/class-use/DoughnutChart.html
+* build/docs/org/achartengine/chart/class-use/LineChart.html
+* build/docs/org/achartengine/chart/class-use/PieChart.html
+* build/docs/org/achartengine/chart/class-use/PieMapper.html
+* build/docs/org/achartengine/chart/class-use/PieSegment.html
+* build/docs/org/achartengine/chart/class-use/PointStyle.html
+* build/docs/org/achartengine/chart/class-use/RangeBarChart.html
+* build/docs/org/achartengine/chart/class-use/RangeStackedBarChart.html
+* build/docs/org/achartengine/chart/class-use/RoundChart.html
+* build/docs/org/achartengine/chart/class-use/ScatterChart.html
+* build/docs/org/achartengine/chart/class-use/TimeChart.html
+* build/docs/org/achartengine/chart/class-use/XYChart.html
+* build/docs/org/achartengine/chart/package-frame.html
+* build/docs/org/achartengine/chart/package-summary.html
+* build/docs/org/achartengine/chart/package-tree.html
+* build/docs/org/achartengine/chart/package-use.html
+* build/docs/org/achartengine/class-use/
+* build/docs/org/achartengine/class-use/ChartFactory.html
+* build/docs/org/achartengine/class-use/GraphicalActivity.html
+* build/docs/org/achartengine/class-use/GraphicalView.html
+* build/docs/org/achartengine/class-use/ITouchHandler.html
+* build/docs/org/achartengine/class-use/TouchHandler.html
+* build/docs/org/achartengine/class-use/TouchHandlerOld.html
+* build/docs/org/achartengine/model/
+* build/docs/org/achartengine/model/CategorySeries.html
+* build/docs/org/achartengine/model/MultipleCategorySeries.html
+* build/docs/org/achartengine/model/Point.html
+* build/docs/org/achartengine/model/RangeCategorySeries.html
+* build/docs/org/achartengine/model/SeriesSelection.html
+* build/docs/org/achartengine/model/TimeSeries.html
+* build/docs/org/achartengine/model/XYMultipleSeriesDataset.html
+* build/docs/org/achartengine/model/XYSeries.html
+* build/docs/org/achartengine/model/XYValueSeries.html
+* build/docs/org/achartengine/model/class-use/
+* build/docs/org/achartengine/model/class-use/CategorySeries.html
+* build/docs/org/achartengine/model/class-use/MultipleCategorySeries.html
+* build/docs/org/achartengine/model/class-use/Point.html
+* build/docs/org/achartengine/model/class-use/RangeCategorySeries.html
+* build/docs/org/achartengine/model/class-use/SeriesSelection.html
+* build/docs/org/achartengine/model/class-use/TimeSeries.html
+* build/docs/org/achartengine/model/class-use/XYMultipleSeriesDataset.html
+* build/docs/org/achartengine/model/class-use/XYSeries.html
+* build/docs/org/achartengine/model/class-use/XYValueSeries.html
+* build/docs/org/achartengine/model/package-frame.html
+* build/docs/org/achartengine/model/package-summary.html
+* build/docs/org/achartengine/model/package-tree.html
+* build/docs/org/achartengine/model/package-use.html
+* build/docs/org/achartengine/package-frame.html
+* build/docs/org/achartengine/package-summary.html
+* build/docs/org/achartengine/package-tree.html
+* build/docs/org/achartengine/package-use.html
+* build/docs/org/achartengine/renderer/
+* build/docs/org/achartengine/renderer/BasicStroke.html
+* build/docs/org/achartengine/renderer/DefaultRenderer.html
+* build/docs/org/achartengine/renderer/DialRenderer.Type.html
+* build/docs/org/achartengine/renderer/DialRenderer.html
+* build/docs/org/achartengine/renderer/SimpleSeriesRenderer.html
+* build/docs/org/achartengine/renderer/XYMultipleSeriesRenderer.Orientation.html
+* build/docs/org/achartengine/renderer/XYMultipleSeriesRenderer.html
+* build/docs/org/achartengine/renderer/XYSeriesRenderer.FillOutsideLine.Type.html
+* build/docs/org/achartengine/renderer/XYSeriesRenderer.FillOutsideLine.html
+* build/docs/org/achartengine/renderer/XYSeriesRenderer.html
+* build/docs/org/achartengine/renderer/class-use/
+* build/docs/org/achartengine/renderer/class-use/BasicStroke.html
+* build/docs/org/achartengine/renderer/class-use/DefaultRenderer.html
+* build/docs/org/achartengine/renderer/class-use/DialRenderer.Type.html
+* build/docs/org/achartengine/renderer/class-use/DialRenderer.html
+* build/docs/org/achartengine/renderer/class-use/SimpleSeriesRenderer.html
+* build/docs/org/achartengine/renderer/class-use/XYMultipleSeriesRenderer.Orientation.html
+* build/docs/org/achartengine/renderer/class-use/XYMultipleSeriesRenderer.html
+* build/docs/org/achartengine/renderer/class-use/XYSeriesRenderer.FillOutsideLine.Type.html
+* build/docs/org/achartengine/renderer/class-use/XYSeriesRenderer.FillOutsideLine.html
+* build/docs/org/achartengine/renderer/class-use/XYSeriesRenderer.html
+* build/docs/org/achartengine/renderer/package-frame.html
+* build/docs/org/achartengine/renderer/package-summary.html
+* build/docs/org/achartengine/renderer/package-tree.html
+* build/docs/org/achartengine/renderer/package-use.html
+* build/docs/org/achartengine/tools/
+* build/docs/org/achartengine/tools/AbstractTool.html
+* build/docs/org/achartengine/tools/FitZoom.html
+* build/docs/org/achartengine/tools/Pan.html
+* build/docs/org/achartengine/tools/PanListener.html
+* build/docs/org/achartengine/tools/Zoom.html
+* build/docs/org/achartengine/tools/ZoomEvent.html
+* build/docs/org/achartengine/tools/ZoomListener.html
+* build/docs/org/achartengine/tools/class-use/
+* build/docs/org/achartengine/tools/class-use/AbstractTool.html
+* build/docs/org/achartengine/tools/class-use/FitZoom.html
+* build/docs/org/achartengine/tools/class-use/Pan.html
+* build/docs/org/achartengine/tools/class-use/PanListener.html
+* build/docs/org/achartengine/tools/class-use/Zoom.html
+* build/docs/org/achartengine/tools/class-use/ZoomEvent.html
+* build/docs/org/achartengine/tools/class-use/ZoomListener.html
+* build/docs/org/achartengine/tools/package-frame.html
+* build/docs/org/achartengine/tools/package-summary.html
+* build/docs/org/achartengine/tools/package-tree.html
+* build/docs/org/achartengine/tools/package-use.html
+* build/docs/org/achartengine/util/
+* build/docs/org/achartengine/util/IndexXYMap.html
+* build/docs/org/achartengine/util/MathHelper.html
+* build/docs/org/achartengine/util/XYEntry.html
+* build/docs/org/achartengine/util/class-use/
+* build/docs/org/achartengine/util/class-use/IndexXYMap.html
+* build/docs/org/achartengine/util/class-use/MathHelper.html
+* build/docs/org/achartengine/util/class-use/XYEntry.html
+* build/docs/org/achartengine/util/package-frame.html
+* build/docs/org/achartengine/util/package-summary.html
+* build/docs/org/achartengine/util/package-tree.html
+* build/docs/org/achartengine/util/package-use.html
+* build/docs/overview-frame.html
+* build/docs/overview-summary.html
+* build/docs/overview-tree.html
+* build/docs/package-list
+* build/docs/script.js
+* build/docs/serialized-form.html
+* build/docs/stylesheet.css
+* build/libs/
+* build/libs/achartengine-1.2.0-demo-source.zip
+* build/libs/achartengine-1.2.0.jar
+* build/reports/
+* build/reports/lint/
+* build/reports/lint/lint_project.txt
+* build/src/
+* build/src/org/
+* build/src/org/achartengine/
+* build/src/org/achartengine/chartdemo/
+* build/src/org/achartengine/chartdemo/demo/
+* build/src/org/achartengine/chartdemo/demo/ChartDemo.java
+* build/src/org/achartengine/chartdemo/demo/GeneratedChartDemo.java
+* build/src/org/achartengine/chartdemo/demo/chart/
+* build/src/org/achartengine/chartdemo/demo/chart/AbstractDemoChart.java
+* build/src/org/achartengine/chartdemo/demo/chart/AverageCubicTemperatureChart.java
+* build/src/org/achartengine/chartdemo/demo/chart/AverageTemperatureChart.java
+* build/src/org/achartengine/chartdemo/demo/chart/BudgetDoughnutChart.java
+* build/src/org/achartengine/chartdemo/demo/chart/BudgetPieChart.java
+* build/src/org/achartengine/chartdemo/demo/chart/CombinedTemperatureChart.java
+* build/src/org/achartengine/chartdemo/demo/chart/IDemoChart.java
+* build/src/org/achartengine/chartdemo/demo/chart/MultipleTemperatureChart.java
+* build/src/org/achartengine/chartdemo/demo/chart/PieChartBuilder.java
+* build/src/org/achartengine/chartdemo/demo/chart/ProjectStatusBubbleChart.java
+* build/src/org/achartengine/chartdemo/demo/chart/ProjectStatusChart.java
+* build/src/org/achartengine/chartdemo/demo/chart/SalesBarChart.java
+* build/src/org/achartengine/chartdemo/demo/chart/SalesComparisonChart.java
+* build/src/org/achartengine/chartdemo/demo/chart/SalesGrowthChart.java
+* build/src/org/achartengine/chartdemo/demo/chart/SalesStackedBarChart.java
+* build/src/org/achartengine/chartdemo/demo/chart/ScatterChart.java
+* build/src/org/achartengine/chartdemo/demo/chart/SensorValuesChart.java
+* build/src/org/achartengine/chartdemo/demo/chart/TemperatureChart.java
+* build/src/org/achartengine/chartdemo/demo/chart/TrigonometricFunctionsChart.java
+* build/src/org/achartengine/chartdemo/demo/chart/WeightDialChart.java
+* build/src/org/achartengine/chartdemo/demo/chart/XYChartBuilder.java
+* build/src/org/achartengine/chartdemo/demo/chart/XYChartBuilderBackup.java
+* extra/
+* extra/.classpath
+* extra/.project
+* extra/LICENSE-2.0.txt
+* l
+* lib/
+* lib/android.jar
+* lib/junit-3.8.1.jar
+* pom.xml
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => aChartEngine/src/main/AndroidManifest.xml
+* assets/ => aChartEngine/src/main/assets
+* demo/ => aChartEngine/src/main/java/
+* lint.xml => aChartEngine/lint.xml
+* res/ => aChartEngine/src/main/res/
+* src/ => aChartEngine/src/main/java/
+* src/org/achartengine/chart/package.html => aChartEngine/src/main/resources/org/achartengine/chart/package.html
+* src/org/achartengine/image/zoom-1.png => aChartEngine/src/main/resources/org/achartengine/image/zoom-1.png
+* src/org/achartengine/image/zoom_in.png => aChartEngine/src/main/resources/org/achartengine/image/zoom_in.png
+* src/org/achartengine/image/zoom_out.png => aChartEngine/src/main/resources/org/achartengine/image/zoom_out.png
+* src/org/achartengine/model/package.html => aChartEngine/src/main/resources/org/achartengine/model/package.html
+* src/org/achartengine/package.html => aChartEngine/src/main/resources/org/achartengine/package.html
+* src/org/achartengine/renderer/package.html => aChartEngine/src/main/resources/org/achartengine/renderer/package.html
+* src/org/achartengine/util/package.html => aChartEngine/src/main/resources/org/achartengine/util/package.html
+* test/ => aChartEngine/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

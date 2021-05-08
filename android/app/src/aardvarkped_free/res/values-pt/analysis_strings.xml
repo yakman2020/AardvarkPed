@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aardvark Pedômetro Livre</string>
+    <string name="title_section1">Passos por Hora</string>
+    <string name="title_section2">Passos por Dia</string>
+    <string name="title_section3">Distância por Hora</string>
+    <string name="title_section4">Distância por Dia</string>
+    <string name="title_section5">Cadência de passos</string>
+    <string name="title_section6">Definições Aardvark Ped</string>
+    <string name="action_stopservice">Parar Aardvark Contador</string>
+    <string name="action_startservice">Iniciar Aardvark Contador</string>
+    <string name="action_importstepfile">Importar dados do passos do ficheiro de arquivo</string>
+    <string name="action_exportstepfile">Exportar dados do passos para ficheiro de arquivo</string>
+    <string name="action_selectimportfile">Selecione o arquivo para importar</string>
+    <string name="action_selectexportfile">Selecione o arquivo para exportação</string>
+    <string name="pref_step_counter">Prefere contador de passos integrado</string>
+    <string name="pref_step_counter_summary">Use a dispositivos integrados  contador de passos, em vez de o contador de aardvark ( quando disponível ).</string>
+    <string name="aardvark_about_summary">Aardvark Ped Analysis version 1.0\n&#169;copyright 2015 Aardvark Visual Software</string>
+    <string name="aardvark_build_id">Undefined</string>
+    <string name="pref_step_retention_time_title">Dados de registo de passos eliminados após</string>
+    <string name="pref_stride_length_title">Comprimento da passada</string>
+    <string name="stride_length_summary_english">Comprimento da passada em polegadas\n(Utilizado para cálculo de distância)"</string>
+    <string name="stride_length_summary_metric">Comprimento da passada em cm\n(Utilizado para cálculo de distância)"</string>
+    <string name="measurement_system_title">Sistema de Medição</string>
+    <string name="measurement_system_default">metric</string>
+    <string name="measurement_system_summary">Selecione a partir de sistema dos EUA (polegadas e milhas) ou métrica (cm e km)</string>
+    <string name="miles">Miles</string>
+    <string name="kilometers">quilômetros</string>
+    <string name="archive_data_title">Arquivo de dados da passos antigos</string>
+    <string name="archive_data_summary">Quando os dados passo é eliminado, arquivar os dados antigos ou simplesmente eliminar-lo? </string>
+    <string name="pref_scan_heart_rate">Procurar  para dispositivos medição da freqüência cardíaca</string>
+    <string name="pref_scan_heart_rate_summary">Procurar para dispositivos bluetooth medição da freqüência cardíaca</string>
+</resources>

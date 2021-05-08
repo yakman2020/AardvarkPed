@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aardvark Skridttæller</string>
+    <string name="title_section1">Skridtt per Time</string>
+    <string name="title_section2">Skridtt per Dagen</string>
+    <string name="title_section3">Afstand per Time</string>
+    <string name="title_section4">Afstand per Dagen</string>
+    <string name="title_section5">Skridt Kadens</string>
+    <string name="title_section6">Aardvark Ped Indstillinger</string>
+    <string name="action_stopservice">Start tjeneste</string>
+    <string name="action_startservice">Stoppe tjeneste</string>
+    <string name="action_importstepfile">Skridt data import fra arkivet</string>
+    <string name="action_exportstepfile">Skridt data eksport til en arkivfil</string>
+    <string name="action_selectimportfile">Vælg fil, der skal importeres</string>
+    <string name="action_selectexportfile">Vælg fil til eksport</string>
+    <string name="pref_step_counter">Foretrækker integreret skridttæller</string>
+    <string name="pref_step_counter_summary">Bruge denne enhed integrerede skridttæller når der det er til stede, i stedet for Aardvark skridttæller.</string>
+    <string name="aardvark_about_summary">Aardvark Ped Analysis version 1.0\n&#169;copyright 2015 Aardvark Visual Software</string>
+    <string name="aardvark_build_id">Undefined</string>
+    <string name="pref_step_retention_time_title">Slette gamle skridt data efter </string>
+    <string name="pref_stride_length_title">Skridtlængde</string>
+    <string name="stride_length_summary_english">Skridtlængde i tommer\ n (for beregning afstand)</string>
+    <string name="stride_length_summary_metric">Skridtlængde i cm \ n (for beregning afstand)</string>
+    <string name="measurement_system_title">Målesystem</string>
+    <string name="measurement_system_default">metric</string>
+    <string name="measurement_system_summary">Amerikanske system (tommer og miles) eller metriske (Cm og Km)</string>
+    <string name="miles">Mile</string>
+    <string name="kilometers">Kilometer</string>
+    <string name="archive_data_title">Arkiv gamle skridt data</string>
+    <string name="archive_data_summary">Når skridt data tabes, arkivere gamle data eller bare fjerne det?</string>
+    <string name="pref_scan_heart_rate">Søgning efter puls enheder</string>
+    <string name="pref_scan_heart_rate_summary">Skanning til Bluetooth puls enheder </string>
+    <string name="scan_confirm">Søg enheder hjerteslag </string>
+    <string name="scan_confirm_text">Søg efter Bluetooth puls enheder vil tage et par minutter \n Aktuelt kendte enheder :</string>
+</resources>

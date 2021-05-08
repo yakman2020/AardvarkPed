@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">土豚計步器</string>
+    <string name="title_section1">每小時數的步驟</string>
+    <string name="title_section2">每天的步數</string>
+    <string name="title_section3">每小時步行的距離</string>
+    <string name="title_section4">每天走的距離</string>
+    <string name="title_section5">步的節奏</string>
+    <string name="title_section6">土豚計步器設置</string>
+    <string name="action_stopservice">停止計數器</string>
+    <string name="action_startservice">開始反</string>
+    <string name="action_importstepfile">從存檔文件導入數據？</string>
+    <string name="action_exportstepfile">步日志將出口到存檔文件？</string>
+    <string name="action_selectimportfile">請選擇導入存檔文件</string>
+    <string name="action_selectexportfile">請選擇一個文件接收出口數據</string>
+    <string name="pref_step_counter">喜歡集成計步器</string>
+    <string name="pref_step_counter_summary">如果它是可用的，使用設備的內置計步器計步而不是食蟻獸</string>
+    <string name="aardvark_about_summary">Aardvark Ped Analysis version 1.0\n&#169;copyright 2015 Aardvark Visual Software</string>
+    <string name="aardvark_build_id">Undefined</string>
+    <string name="pref_step_retention_time_title">拆卸步驟日志數據比</string>
+    <string name="pref_stride_length_title">台階長</string>
+    <string name="stride_length_summary_english">长度的步骤显示英寸\n(用于距离计算)"</string>
+    <string name="stride_length_summary_metric">步在厘米长度\n(用于距离计算)"</string>
+    <string name="measurement_system_title"> 測量系統</string>
+    <string name="measurement_system_default">metric</string>
+    <string name="measurement_system_summary"> 選擇測量系統 ：公制（厘米、公裡）或英文系統（英寸和英裡）</string>
+    <string name="miles">英裡</string>
+    <string name="kilometers">公裡</string>
+    <string name="archive_data_title"> 老步日志數據存檔？</string>
+    <string name="archive_data_summary">老步日志數據歸檔或刪除它從日志?</string>
+    <string name="pref_scan_heart_rate"> 心臟率設備搜索</string>
+    <string name="pref_scan_heart_rate_summary">我們應該開始搜尋藍牙心率裝置</string>
+    <string name="scan_confirm"> 搜索心率裝置嗎？</string>
+    <string name="scan_confirm_text">搜索藍牙心率設備大約需要兩分鐘。\n 目前已知的設備：</string>
+</resources>

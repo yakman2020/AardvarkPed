@@ -1,0 +1,627 @@
+<resources>
+    <string-array name="listArray">
+        <item>Metric (using kilometers and centimeters)</item>
+        <item>US (using miles and inches)</item>
+    </string-array>
+    <string-array name="listValues">
+        <item>metric</item>
+        <item>english</item>
+    </string-array>
+    <string-array name="exportListArray">
+        <item>clear old step log data</item>
+        <item>archive old step log data</item>
+    </string-array>
+    <string-array name="exportListValues">
+        <item>clear</item>
+        <item>archive</item>
+    </string-array>
+    <string-array name="default_heart_rate_list">
+        <item>No devices available</item>
+    </string-array>
+    <string-array name="default_heart_rate_list_values">
+        <item></item>
+     </string-array>
+    <string-array  name="step_retention_time_values">
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >7</item>
+        <item >14</item>
+        <item >30</item>
+        <item >-1</item>
+    </string-array>
+    <string-array  name="step_retention_time_value_labels">
+        <item >1 tag</item>
+        <item >2 Tage</item>
+        <item >3 Tage</item>
+        <item >1 woche</item>
+        <item >2 wochen</item>
+        <item >1 monat</item>
+        <item >nie</item>
+    </string-array>
+
+    <string-array name = "stride_length_value_labels_metric">
+        <item>50.0 cm</item>
+        <item>51.0 cm</item>
+        <item>52.0 cm</item>
+        <item>53.0 cm</item>
+        <item>54.0 cm</item>
+        <item>55.0 cm</item>
+        <item>56.0 cm</item>
+        <item>57.0 cm</item>
+        <item>58.0 cm</item>
+        <item>59.0 cm</item>
+        <item>60.0 cm</item>
+        <item>61.0 cm</item>
+        <item>62.0 cm</item>
+        <item>63.0 cm</item>
+        <item>64.0 cm</item>
+        <item>65.0 cm</item>
+        <item>66.0 cm</item>
+        <item>67.0 cm</item>
+        <item>68.0 cm</item>
+        <item>69.0 cm</item>
+        <item>70.0 cm</item>
+        <item>71.0 cm</item>
+        <item>72.0 cm</item>
+        <item>73.0 cm</item>
+        <item>74.0 cm</item>
+        <item>75.0 cm</item>
+        <item>76.0 cm</item>
+        <item>77.0 cm</item>
+        <item>78.0 cm</item>
+        <item>79.0 cm</item>
+        <item>80.0 cm</item>
+        <item>81.0 cm</item>
+        <item>82.0 cm</item>
+        <item>83.0 cm</item>
+        <item>84.0 cm</item>
+        <item>85.0 cm</item>
+        <item>86.0 cm</item>
+        <item>87.0 cm</item>
+        <item>88.0 cm</item>
+        <item>89.0 cm</item>
+        <item>90.0 cm</item>
+        <item>91.0 cm</item>
+        <item>92.0 cm</item>
+        <item>93.0 cm</item>
+        <item>94.0 cm</item>
+        <item>95.0 cm</item>
+        <item>96.0 cm</item>
+        <item>97.0 cm</item>
+        <item>98.0 cm</item>
+        <item>99.0 cm</item>
+        <item>100.0 cm</item>
+        <item>101.0 cm</item>
+        <item>102.0 cm</item>
+        <item>103.0 cm</item>
+        <item>104.0 cm</item>
+        <item>105.0 cm</item>
+        <item>106.0 cm</item>
+        <item>107.0 cm</item>
+        <item>108.0 cm</item>
+        <item>109.0 cm</item>
+        <item>110.0 cm</item>
+        <item>111.0 cm</item>
+        <item>112.0 cm</item>
+        <item>113.0 cm</item>
+        <item>114.0 cm</item>
+        <item>115.0 cm</item>
+        <item>116.0 cm</item>
+        <item>117.0 cm</item>
+        <item>118.0 cm</item>
+        <item>119.0 cm</item>
+        <item>120.0 cm</item>
+        <item>121.0 cm</item>
+        <item>122.0 cm</item>
+        <item>123.0 cm</item>
+        <item>124.0 cm</item>
+        <item>125.0 cm</item>
+        <item>126.0 cm</item>
+        <item>127.0 cm</item>
+        <item>128.0 cm</item>
+        <item>129.0 cm</item>
+        <item>130.0 cm</item>
+        <item>131.0 cm</item>
+        <item>132.0 cm</item>
+        <item>133.0 cm</item>
+        <item>134.0 cm</item>
+        <item>135.0 cm</item>
+        <item>136.0 cm</item>
+        <item>137.0 cm</item>
+        <item>138.0 cm</item>
+        <item>139.0 cm</item>
+        <item>140.0 cm</item>
+        <item>141.0 cm</item>
+        <item>142.0 cm</item>
+        <item>143.0 cm</item>
+        <item>144.0 cm</item>
+        <item>145.0 cm</item>
+        <item>146.0 cm</item>
+        <item>147.0 cm</item>
+        <item>148.0 cm</item>
+        <item>149.0 cm</item>
+        <item>150.0 cm</item>
+        <item>151.0 cm</item>
+        <item>152.0 cm</item>
+        <item>153.0 cm</item>
+        <item>154.0 cm</item>
+        <item>155.0 cm</item>
+        <item>156.0 cm</item>
+        <item>157.0 cm</item>
+        <item>158.0 cm</item>
+        <item>159.0 cm</item>
+        <item>160.0 cm</item>
+        <item>161.0 cm</item>
+        <item>162.0 cm</item>
+        <item>163.0 cm</item>
+        <item>164.0 cm</item>
+        <item>165.0 cm</item>
+        <item>166.0 cm</item>
+        <item>167.0 cm</item>
+        <item>168.0 cm</item>
+        <item>169.0 cm</item>
+        <item>170.0 cm</item>
+        <item>171.0 cm</item>
+        <item>172.0 cm</item>
+        <item>173.0 cm</item>
+        <item>174.0 cm</item>
+        <item>175.0 cm</item>
+        <item>176.0 cm</item>
+        <item>177.0 cm</item>
+        <item>178.0 cm</item>
+        <item>179.0 cm</item>
+        <item>180.0 cm</item>
+        <item>181.0 cm</item>
+        <item>182.0 cm</item>
+        <item>183.0 cm</item>
+        <item>184.0 cm</item>
+        <item>185.0 cm</item>
+        <item>186.0 cm</item>
+        <item>187.0 cm</item>
+        <item>188.0 cm</item>
+        <item>189.0 cm</item>
+        <item>190.0 cm</item>
+        <item>191.0 cm</item>
+        <item>192.0 cm</item>
+        <item>193.0 cm</item>
+        <item>194.0 cm</item>
+        <item>195.0 cm</item>
+        <item>196.0 cm</item>
+        <item>197.0 cm</item>
+        <item>198.0 cm</item>
+        <item>199.0 cm</item>
+        <item>200.0 cm</item>
+        <item>201.0 cm</item>
+        <item>202.0 cm</item>
+        <item>203.0 cm</item>
+        <item>204.0 cm</item>
+        <item>205.0 cm</item>
+        <item>206.0 cm</item>
+        <item>207.0 cm</item>
+        <item>208.0 cm</item>
+        <item>209.0 cm</item>
+    </string-array>
+    
+    <string-array name = "stride_length_values_metric">
+        <item>0.5</item>
+        <item>0.51</item>
+        <item>0.52</item>
+        <item>0.53</item>
+        <item>0.54</item>
+        <item>0.55</item>
+        <item>0.56</item>
+        <item>0.57</item>
+        <item>0.58</item>
+        <item>0.59</item>
+        <item>0.6</item>
+        <item>0.61</item>
+        <item>0.62</item>
+        <item>0.63</item>
+        <item>0.64</item>
+        <item>0.65</item>
+        <item>0.66</item>
+        <item>0.67</item>
+        <item>0.68</item>
+        <item>0.69</item>
+        <item>0.7</item>
+        <item>0.71</item>
+        <item>0.72</item>
+        <item>0.73</item>
+        <item>0.74</item>
+        <item>0.75</item>
+        <item>0.76</item>
+        <item>0.77</item>
+        <item>0.78</item>
+        <item>0.79</item>
+        <item>0.8</item>
+        <item>0.81</item>
+        <item>0.82</item>
+        <item>0.83</item>
+        <item>0.84</item>
+        <item>0.85</item>
+        <item>0.86</item>
+        <item>0.87</item>
+        <item>0.88</item>
+        <item>0.89</item>
+        <item>0.9</item>
+        <item>0.91</item>
+        <item>0.92</item>
+        <item>0.93</item>
+        <item>0.94</item>
+        <item>0.95</item>
+        <item>0.96</item>
+        <item>0.97</item>
+        <item>0.98</item>
+        <item>0.99</item>
+        <item>1.0</item>
+        <item>1.01</item>
+        <item>1.02</item>
+        <item>1.03</item>
+        <item>1.04</item>
+        <item>1.05</item>
+        <item>1.06</item>
+        <item>1.07</item>
+        <item>1.08</item>
+        <item>1.09</item>
+        <item>1.1</item>
+        <item>1.11</item>
+        <item>1.12</item>
+        <item>1.13</item>
+        <item>1.14</item>
+        <item>1.15</item>
+        <item>1.16</item>
+        <item>1.17</item>
+        <item>1.18</item>
+        <item>1.19</item>
+        <item>1.2</item>
+        <item>1.21</item>
+        <item>1.22</item>
+        <item>1.23</item>
+        <item>1.24</item>
+        <item>1.25</item>
+        <item>1.26</item>
+        <item>1.27</item>
+        <item>1.28</item>
+        <item>1.29</item>
+        <item>1.3</item>
+        <item>1.31</item>
+        <item>1.32</item>
+        <item>1.33</item>
+        <item>1.34</item>
+        <item>1.35</item>
+        <item>1.36</item>
+        <item>1.37</item>
+        <item>1.38</item>
+        <item>1.39</item>
+        <item>1.4</item>
+        <item>1.41</item>
+        <item>1.42</item>
+        <item>1.43</item>
+        <item>1.44</item>
+        <item>1.45</item>
+        <item>1.46</item>
+        <item>1.47</item>
+        <item>1.48</item>
+        <item>1.49</item>
+        <item>1.5</item>
+        <item>1.51</item>
+        <item>1.52</item>
+        <item>1.53</item>
+        <item>1.54</item>
+        <item>1.55</item>
+        <item>1.56</item>
+        <item>1.57</item>
+        <item>1.58</item>
+        <item>1.59</item>
+        <item>1.6</item>
+        <item>1.61</item>
+        <item>1.62</item>
+        <item>1.63</item>
+        <item>1.64</item>
+        <item>1.65</item>
+        <item>1.66</item>
+        <item>1.67</item>
+        <item>1.68</item>
+        <item>1.69</item>
+        <item>1.7</item>
+        <item>1.71</item>
+        <item>1.72</item>
+        <item>1.73</item>
+        <item>1.74</item>
+        <item>1.75</item>
+        <item>1.76</item>
+        <item>1.77</item>
+        <item>1.78</item>
+        <item>1.79</item>
+        <item>1.8</item>
+        <item>1.81</item>
+        <item>1.82</item>
+        <item>1.83</item>
+        <item>1.84</item>
+        <item>1.85</item>
+        <item>1.86</item>
+        <item>1.87</item>
+        <item>1.88</item>
+        <item>1.89</item>
+        <item>1.9</item>
+        <item>1.91</item>
+        <item>1.92</item>
+        <item>1.93</item>
+        <item>1.94</item>
+        <item>1.95</item>
+        <item>1.96</item>
+        <item>1.97</item>
+        <item>1.98</item>
+        <item>1.99</item>
+        <item>2.0</item>
+        <item>2.01</item>
+        <item>2.02</item>
+        <item>2.03</item>
+        <item>2.04</item>
+        <item>2.05</item>
+        <item>2.06</item>
+        <item>2.07</item>
+        <item>2.08</item>
+        <item>2.09</item>
+    </string-array>
+    
+    <string-array name = "stride_length_value_labels_english">
+        <item>19.5 in</item>
+        <item>20.0 in</item>
+        <item>20.5 in</item>
+        <item>21.0 in</item>
+        <item>21.5 in</item>
+        <item>22.0 in</item>
+        <item>22.5 in</item>
+        <item>23.0 in</item>
+        <item>23.5 in</item>
+        <item>24.0 in</item>
+        <item>24.5 in</item>
+        <item>25.0 in</item>
+        <item>25.5 in</item>
+        <item>26.0 in</item>
+        <item>26.5 in</item>
+        <item>27.0 in</item>
+        <item>27.5 in</item>
+        <item>28.0 in</item>
+        <item>28.5 in</item>
+        <item>29.0 in</item>
+        <item>29.5 in</item>
+        <item>30.0 in</item>
+        <item>30.5 in</item>
+        <item>31.0 in</item>
+        <item>31.5 in</item>
+        <item>32.0 in</item>
+        <item>32.5 in</item>
+        <item>33.0 in</item>
+        <item>33.5 in</item>
+        <item>34.0 in</item>
+        <item>34.5 in</item>
+        <item>35.0 in</item>
+        <item>35.5 in</item>
+        <item>36.0 in</item>
+        <item>36.5 in</item>
+        <item>37.0 in</item>
+        <item>37.5 in</item>
+        <item>38.0 in</item>
+        <item>38.5 in</item>
+        <item>39.0 in</item>
+        <item>39.5 in</item>
+        <item>40.0 in</item>
+        <item>40.5 in</item>
+        <item>41.0 in</item>
+        <item>41.5 in</item>
+        <item>42.0 in</item>
+        <item>42.5 in</item>
+        <item>43.0 in</item>
+        <item>43.5 in</item>
+        <item>44.0 in</item>
+        <item>44.5 in</item>
+        <item>45.0 in</item>
+        <item>45.5 in</item>
+        <item>46.0 in</item>
+        <item>46.5 in</item>
+        <item>47.0 in</item>
+        <item>47.5 in</item>
+        <item>48.0 in</item>
+        <item>48.5 in</item>
+        <item>49.0 in</item>
+        <item>49.5 in</item>
+        <item>50.0 in</item>
+        <item>50.5 in</item>
+        <item>51.0 in</item>
+        <item>51.5 in</item>
+        <item>52.0 in</item>
+        <item>52.5 in</item>
+        <item>53.0 in</item>
+        <item>53.5 in</item>
+        <item>54.0 in</item>
+        <item>54.5 in</item>
+        <item>55.0 in</item>
+        <item>55.5 in</item>
+        <item>56.0 in</item>
+        <item>56.5 in</item>
+        <item>57.0 in</item>
+        <item>57.5 in</item>
+        <item>58.0 in</item>
+        <item>58.5 in</item>
+        <item>59.0 in</item>
+        <item>59.5 in</item>
+        <item>60.0 in</item>
+        <item>60.5 in</item>
+        <item>61.0 in</item>
+        <item>61.5 in</item>
+        <item>62.0 in</item>
+        <item>62.5 in</item>
+        <item>63.0 in</item>
+        <item>63.5 in</item>
+        <item>64.0 in</item>
+        <item>64.5 in</item>
+        <item>65.0 in</item>
+        <item>65.5 in</item>
+        <item>66.0 in</item>
+        <item>66.5 in</item>
+        <item>67.0 in</item>
+        <item>67.5 in</item>
+        <item>68.0 in</item>
+        <item>68.5 in</item>
+        <item>69.0 in</item>
+        <item>69.5 in</item>
+        <item>70.0 in</item>
+        <item>70.5 in</item>
+        <item>71.0 in</item>
+        <item>71.5 in</item>
+        <item>72.0 in</item>
+        <item>72.5 in</item>
+        <item>73.0 in</item>
+        <item>73.5 in</item>
+        <item>74.0 in</item>
+        <item>74.5 in</item>
+        <item>75.0 in</item>
+        <item>75.5 in</item>
+        <item>76.0 in</item>
+        <item>76.5 in</item>
+        <item>77.0 in</item>
+        <item>77.5 in</item>
+        <item>78.0 in</item>
+        <item>78.5 in</item>
+        <item>79.0 in</item>
+        <item>79.5 in</item>
+        <item>80.0 in</item>
+        <item>80.5 in</item>
+        <item>81.0 in</item>
+        <item>81.5 in</item>
+        <item>82.0 in</item>
+    </string-array>
+    
+    
+    <string-array name = "stride_length_values_english">
+        <item>0.4953</item>
+        <item>0.508</item>
+        <item>0.5207</item>
+        <item>0.5334</item>
+        <item>0.5461</item>
+        <item>0.5588</item>
+        <item>0.5715</item>
+        <item>0.5842</item>
+        <item>0.5969</item>
+        <item>0.6096</item>
+        <item>0.6223</item>
+        <item>0.635</item>
+        <item>0.6477</item>
+        <item>0.6604</item>
+        <item>0.6731</item>
+        <item>0.6858</item>
+        <item>0.6985</item>
+        <item>0.7112</item>
+        <item>0.7239</item>
+        <item>0.7366</item>
+        <item>0.7493</item>
+        <item>0.762</item>
+        <item>0.7747</item>
+        <item>0.7874</item>
+        <item>0.8001</item>
+        <item>0.8128</item>
+        <item>0.8255</item>
+        <item>0.8382</item>
+        <item>0.8509</item>
+        <item>0.8636</item>
+        <item>0.8763</item>
+        <item>0.889</item>
+        <item>0.9017</item>
+        <item>0.9144</item>
+        <item>0.9271</item>
+        <item>0.9398</item>
+        <item>0.9525</item>
+        <item>0.9652</item>
+        <item>0.9779</item>
+        <item>0.9906</item>
+        <item>1.0033</item>
+        <item>1.016</item>
+        <item>1.0287</item>
+        <item>1.0414</item>
+        <item>1.0541</item>
+        <item>1.0668</item>
+        <item>1.0795</item>
+        <item>1.0922</item>
+        <item>1.1049</item>
+        <item>1.1176</item>
+        <item>1.1303</item>
+        <item>1.143</item>
+        <item>1.1557</item>
+        <item>1.1684</item>
+        <item>1.1811</item>
+        <item>1.1938</item>
+        <item>1.2065</item>
+        <item>1.2192</item>
+        <item>1.2319</item>
+        <item>1.2446</item>
+        <item>1.2573</item>
+        <item>1.27</item>
+        <item>1.2827</item>
+        <item>1.2954</item>
+        <item>1.3081</item>
+        <item>1.3208</item>
+        <item>1.3335</item>
+        <item>1.3462</item>
+        <item>1.3589</item>
+        <item>1.3716</item>
+        <item>1.3843</item>
+        <item>1.397</item>
+        <item>1.4097</item>
+        <item>1.4224</item>
+        <item>1.4351</item>
+        <item>1.4478</item>
+        <item>1.4605</item>
+        <item>1.4732</item>
+        <item>1.4859</item>
+        <item>1.4986</item>
+        <item>1.5113</item>
+        <item>1.524</item>
+        <item>1.5367</item>
+        <item>1.5494</item>
+        <item>1.5621</item>
+        <item>1.5748</item>
+        <item>1.5875</item>
+        <item>1.6002</item>
+        <item>1.6129</item>
+        <item>1.6256</item>
+        <item>1.6383</item>
+        <item>1.651</item>
+        <item>1.6637</item>
+        <item>1.6764</item>
+        <item>1.6891</item>
+        <item>1.7018</item>
+        <item>1.7145</item>
+        <item>1.7272</item>
+        <item>1.7399</item>
+        <item>1.7526</item>
+        <item>1.7653</item>
+        <item>1.778</item>
+        <item>1.7907</item>
+        <item>1.8034</item>
+        <item>1.8161</item>
+        <item>1.8288</item>
+        <item>1.8415</item>
+        <item>1.8542</item>
+        <item>1.8669</item>
+        <item>1.8796</item>
+        <item>1.8923</item>
+        <item>1.905</item>
+        <item>1.9177</item>
+        <item>1.9304</item>
+        <item>1.9431</item>
+        <item>1.9558</item>
+        <item>1.9685</item>
+        <item>1.9812</item>
+        <item>1.9939</item>
+        <item>2.0066</item>
+        <item>2.0193</item>
+        <item>2.032</item>
+        <item>2.0447</item>
+        <item>2.0574</item>
+        <item>2.0701</item>
+        <item>2.0828</item>
+    </string-array>
+</resources>

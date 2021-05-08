@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feature_unavailable_message">Esta característica no está disponible en la versión gratuita.\nPara utilizar esta función, por favor, actualice a la versión de pago de Aardvark podómetro en <a href="http://www.aardvarkvisualsoftware.com">www.aardvarkvisualsoftware.com</a> </string>
+</resources>

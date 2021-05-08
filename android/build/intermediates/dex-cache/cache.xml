@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/space2/home/brcamp/Projects/AndroidStudioProjects/aardvarkvisualsoftware/AardvarkPed/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0 rc3"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/space2/home/brcamp/Projects/AndroidStudioProjects/aardvarkvisualsoftware/AardvarkPed/app/build/intermediates/transforms/dex/aardvarkpedplus/debug/folders/1000/10/internal_impl-22.0.0_9d8cdab1b7bc0475d49bb072e15c077aedc350d6/classes.dex" />
+    </item>
+    <item
+        jar="/space2/home/brcamp/Projects/AndroidStudioProjects/aardvarkvisualsoftware/AardvarkPed/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0 rc3"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="/space2/home/brcamp/Projects/AndroidStudioProjects/aardvarkvisualsoftware/AardvarkPed/app/build/intermediates/transforms/dex/aardvarkpedplus/debug/folders/1000/10/com.google.android.gms-play-services-ads-7.0.0_93999ba35505f6a70fd68bd386042db470e5ecc8/classes.dex" />
+    </item>
+    <item
+        jar="/space2/home/brcamp/Projects/AndroidStudioProjects/aardvarkvisualsoftware/AardvarkPed/app/build/intermediates/incremental-classes/aardvarkpedplus/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0 rc3"
+        sha1="76fcfab4218db5261ad9a14ce00a232e838805b1">
+        <dex dex="/space2/home/brcamp/Projects/AndroidStudioProjects/aardvarkvisualsoftware/AardvarkPed/app/build/intermediates/transforms/dex/aardvarkpedplus/debug/folders/1000/10/instant-run-bootstrap_29af8008da4f18b5492ff881c061745c8b8a20d1/classes.dex" />
+    </item>
+    <item
+        jar="/space2/home/brcamp/Projects/AndroidStudioProjects/aardvarkvisualsoftware/AardvarkPed/app/build/intermediates/incremental-runtime-classes/aardvarkpedplus/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0 rc3"
+        sha1="a71a45fd85aed41e001aa9c68d4cd024dd0abf1a">
+        <dex dex="/space2/home/brcamp/Projects/AndroidStudioProjects/aardvarkvisualsoftware/AardvarkPed/app/build/intermediates/transforms/dex/aardvarkpedplus/debug/folders/1000/10/instant-run_c5911ad949890942777d6f8d053cc5e48847c948/classes.dex" />
+    </item>
+    <item
+        jar="/space2/home/brcamp/Projects/AndroidStudioProjects/aardvarkvisualsoftware/AardvarkPed/app/libs/aarvarkped_free/amazon-ads-5.6.20.jar"
+        jumboMode="true"
+        revision="24.0.0 rc3"
+        sha1="bd1558b013155ebbfc798e8424b1f34c7d151ae7">
+        <dex dex="/space2/home/brcamp/Projects/AndroidStudioProjects/aardvarkvisualsoftware/AardvarkPed/app/build/intermediates/transforms/dex/aardvarkpedplus/debug/folders/1000/2/amazon-ads-5.6.20_1afc713ff80b1f7866f4c3434a428177c384567d/classes.dex" />
+    </item>
+    <item
+        jar="/space2/home/brcamp/Projects/AndroidStudioProjects/aardvarkvisualsoftware/AardvarkPed/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0 rc3"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/space2/home/brcamp/Projects/AndroidStudioProjects/aardvarkvisualsoftware/AardvarkPed/app/build/intermediates/transforms/dex/aardvarkpedplus/debug/folders/1000/10/com.android.support-appcompat-v7-21.0.3_80ecc9a9c3995706f42d34906957b04f0fc02e0c/classes.dex" />
+    </item>
+    <item
+        jar="/space2/home/brcamp/Projects/AndroidStudioProjects/aardvarkvisualsoftware/AardvarkPed/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0 rc3"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="/space2/home/brcamp/Projects/AndroidStudioProjects/aardvarkvisualsoftware/AardvarkPed/app/build/intermediates/transforms/dex/aardvarkpedplus/debug/folders/1000/10/com.google.android.gms-play-services-analytics-7.0.0_6111ad8edf1c7b2971c2b7ccd3d77a3a881522a0/classes.dex" />
+    </item>
+    <item
+        jar="/space2/opt/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0 rc3"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/space2/home/brcamp/Projects/AndroidStudioProjects/aardvarkvisualsoftware/AardvarkPed/app/build/intermediates/transforms/dex/aardvarkpedplus/debug/folders/1000/10/support-annotations-22.0.0_64bea79a14778110da1dfa38f0364095e1e17785/classes.dex" />
+    </item>
+    <item
+        jar="/space2/home/brcamp/Projects/AndroidStudioProjects/aardvarkvisualsoftware/AardvarkPed/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0 rc3"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/space2/home/brcamp/Projects/AndroidStudioProjects/aardvarkvisualsoftware/AardvarkPed/app/build/intermediates/transforms/dex/aardvarkpedplus/debug/folders/1000/10/com.android.support-support-v4-22.0.0_ac2ef774fb9942830450b98b2b743284f1d65251/classes.dex" />
+    </item>
+    <item
+        jar="/space2/home/brcamp/Projects/AndroidStudioProjects/aardvarkvisualsoftware/AardvarkPed/app/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="true"
+        revision="24.0.0 rc3"
+        sha1="0dcc55e70f7ebf7238fe2ec53f662eb378ab2668">
+        <dex dex="/space2/home/brcamp/Projects/AndroidStudioProjects/aardvarkvisualsoftware/AardvarkPed/app/build/intermediates/transforms/dex/aardvarkpedplus/debug/folders/1000/10/internal_impl-21.0.3_750390bd97f6b3b861bdafe0a8b8a0ded88355b4/classes.dex" />
+    </item>
+    <item
+        jar="/space2/home/brcamp/Projects/AndroidStudioProjects/aardvarkvisualsoftware/AardvarkPed/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0 rc3"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="/space2/home/brcamp/Projects/AndroidStudioProjects/aardvarkvisualsoftware/AardvarkPed/app/build/intermediates/transforms/dex/aardvarkpedplus/debug/folders/1000/10/com.google.android.gms-play-services-base-7.0.0_5dd6672046b78d01e59cbe428a5fa7b2b0dc21b0/classes.dex" />
+    </item>
+    <item
+        jar="/space2/home/brcamp/Projects/AndroidStudioProjects/aardvarkvisualsoftware/AardvarkPed/app/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.3/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0 rc3"
+        sha1="2c2071dcaf7a008c3b01a6381a33be55396bab09">
+        <dex dex="/space2/home/brcamp/Projects/AndroidStudioProjects/aardvarkvisualsoftware/AardvarkPed/app/build/intermediates/transforms/dex/aardvarkpedplus/debug/folders/1000/10/com.android.support-support-v13-21.0.3_b917617ba19c6e97c69a42fc3d82cbeeb2791ea5/classes.dex" />
+    </item>
+
+</items>

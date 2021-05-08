@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aardvark Stegräknare</string>
+    <string name="title_section1">Steg per Time</string>
+    <string name="title_section2">Steg per Dag</string>
+    <string name="title_section3">Avstand per Time</string>
+    <string name="title_section4">Avstand per Dag</string>
+    <string name="title_section5">Skritt Kadens</string>
+    <string name="title_section6">Aardvark Ped Instellingen</string>
+    <string name="action_stopservice">Start teneste</string>
+    <string name="action_startservice">Stoppe teneste</string>
+    <string name="action_importstepfile">Skritt data import fra arkivet</string>
+    <string name="action_exportstepfile">Skritt data eksport til arkivfilen</string>
+    <string name="action_selectimportfile">Velg filen som skal importeres</string>
+    <string name="action_selectexportfile">Velg fil for eksport</string>
+    <string name="pref_step_counter">Foretrekker integrert skritteller</string>
+    <string name="pref_step_counter_summary">Använd inbyggda stegräknare enheter när det finns plats Aardvark räknas.</string>
+    <string name="aardvark_about_summary">Aardvark Ped Analysis version 1.0\n&#169;copyright 2015 Aardvark Visual Software</string>
+    <string name="aardvark_build_id">Undefined</string>
+    <string name="pref_step_retention_time_title">Radera gamla data efter steg</string>
+    <string name="pref_stride_length_title">Steglängd</string>
+    <string name="stride_length_summary_english">Steglängd (Inch)\n(for beregning av reiseavstand)</string>
+    <string name="stride_length_summary_metric">Steglängd (cm) \n (for beregning av reiseavstand)</string>
+    <string name="measurement_system_title">Mätsystem</string>
+    <string name="measurement_system_default">metric</string>
+    <string name="measurement_system_summary">Amerikanska systemet (inches och miles) eller metriska (Cm och Km)</string>
+    <string name="miles">Mile</string>
+    <string name="kilometers">Kilometer</string>
+    <string name="archive_data_title">Arkiv gamla steg uppgifter</string>
+    <string name="archive_data_summary">När steg uppgifter tappas, arkivera gamla data eller bara ta bort det?</string>
+    <string name="pref_scan_heart_rate">Scan puls enhet</string>
+    <string name="pref_scan_heart_rate_summary">Skanne etter Bluetooth-enheter hjerteslag</string>
+    <string name="scan_confirm">Sök enheter hjärtslag</string>
+    <string name="scan_confirm_text">Sök efter Bluetooth-enheter hjärtslag tar ett par minuter\nNuvarande kända enheter:</string>
+</resources>

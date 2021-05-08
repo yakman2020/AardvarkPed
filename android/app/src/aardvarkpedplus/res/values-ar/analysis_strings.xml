@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"> الخطو Aardvark بلس</string>
+    <string name="title_section1">الخطوات لكل ساعة</string>
+    <string name="title_section2">خطوات في يوم</string>
+    <string name="title_section3">المسافة كل ساعة</string>
+    <string name="title_section4">المسافة كل يوم</string>
+    <string name="title_section5">خطوة إيقاع</string>
+    <string name="title_section6">الإعدادات ﺃﺭﺪﻓﺮﻛ</string>
+    <string name="action_stopservice">توقف خدمة خنزير الأرض</string>
+    <string name="action_startservice">بدء ﺃﺭﺪﻓﺮﻛ عداد</string>
+    <string name="action_importstepfile">استيراد خطوة بيانات السجل من ملف الأرشيف.</string>
+    <string name="action_exportstepfile">تصدير خطوة بيانات السجل إلى ملف الأرشيف.</string>
+    <string name="action_selectimportfile">تحديد ملف لاستيراد البيانات من.</string>
+    <string name="action_selectexportfile">حدد ملف للحصول على البيانات التي تم تصديرها</string>
+    <string name="pref_step_counter">استخدم العداد خطوة متكاملة</string>
+    <string name="pref_step_counter_summary">تفضل عداد الخطى التي تتكامل في هذا الجهاز المحمول بدلا من خنزير الأرض خطوة مضادة</string>
+    <string name="aardvark_about_summary">Aardvark Ped Analysis version 1.0\n&#169;copyright 2015 Aardvark Visual Software</string>
+    <string name="aardvark_build_id">Undefined</string>
+    <string name="pref_step_retention_time_title">حذف بيانات السجل خطوة  التاريخية الأقدم من</string>
+    <string name="pref_stride_length_title">خطوة طول</string>
+    <string name="stride_length_summary_english">طول خطوة في بوصة\n(يستخدم هذا لحساب المسافة)</string>
+    <string name="stride_length_summary_metric">طول خطوة في سم\n(يستخدم هذا لحساب المسافة)</string>
+    <string name="measurement_system_title">نظام القياس</string>
+    <string name="measurement_system_default">metric</string>
+    <string name="measurement_system_summary">حدد البريطانية (بوصة وأميال) أو متري (سم وكم)</string>
+    <string name="miles">ميل</string>
+    <string name="kilometers">كيلومتر ألف متر</string>
+    <string name="archive_data_title">أرشيف بيانات السجل خطوة القديمة</string>
+    <string name="archive_data_summary"> عند إزالة  البيانات  خطوة القديمة، أرشفة البيانات القديمة إلى ملف أو مجرد حذف ذلك؟</string>
+    <string name="pref_scan_heart_rate">البحث عن أجهزة بلوتوث معدل ضربات القلب</string>
+    <string name="pref_scan_heart_rate_summary">البحث عن أجهزة بلوتوث معدل ضربات القلب</string>
+    <string name="scan_confirm">البحث عن الأجهزة؟</string>
+    <string name="scan_confirm_text">البحث عن أجهزة Bluetooth قد تستغرق عدة دقائق.\nالأجهزة المعروفة حاليا هي:</string>
+</resources>

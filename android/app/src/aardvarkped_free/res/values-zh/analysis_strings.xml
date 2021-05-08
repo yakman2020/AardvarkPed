@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">土豚计步器 免费</string>
+    <string name="title_section1">每小时数的步骤</string>
+    <string name="title_section2">每天的步数</string>
+    <string name="title_section3">每小时步行的距离</string>
+    <string name="title_section4">每天走的距离</string>
+    <string name="title_section5">步的节奏</string>
+    <string name="title_section6">土豚计步器设置</string>
+    <string name="action_stopservice">停止计数器</string>
+    <string name="action_startservice">开始反</string>
+    <string name="action_importstepfile">从存档文件导入数据？</string>
+    <string name="action_exportstepfile">步日志将出口到存档文件？</string>
+    <string name="action_selectimportfile">请选择导入存档文件</string>
+    <string name="action_selectexportfile">请选择一个文件接收出口数据</string>
+    <string name="pref_step_counter">喜欢集成计步器</string>
+    <string name="pref_step_counter_summary">如果它是可用的，使用设备的内置计步器计步而不是食蚁兽</string>
+    <string name="aardvark_about_summary">Aardvark Ped Analysis version 1.0\n&#169;copyright 2015 Aardvark Visual Software</string>
+    <string name="aardvark_build_id">Undefined</string>
+    <string name="pref_step_retention_time_title">拆卸步骤日志数据比</string>
+    <string name="pref_stride_length_title">台阶长</string>
+    <string name="stride_length_summary_english">长度的步骤显示英寸\n(用于距离计算)"</string>
+    <string name="stride_length_summary_metric">步在厘米长度\n(用于距离计算)"</string>
+    <string name="measurement_system_title">测量系统</string>
+    <string name="measurement_system_default">metric</string>
+    <string name="measurement_system_summary">选择测量系统：公制（厘米、公里）或英文系统（英寸和英里）</string>
+    <string name="miles">英里</string>
+    <string name="kilometers">公里</string>
+    <string name="archive_data_title">老步日志数据存档？</string>
+    <string name="archive_data_summary">老步日志数据归档或删除它从日志?</string>
+    <string name="pref_scan_heart_rate">心脏率设备搜索</string>
+    <string name="pref_scan_heart_rate_summary">我们应该开始搜寻蓝牙心率装置</string>
+</resources>

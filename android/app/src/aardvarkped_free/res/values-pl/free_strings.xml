@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feature_unavailable_message">Ta funkcja jest niedostępna w wersji darmowej.\nAby korzystać z tej funkcji należy uaktualnić do wersji płatnej w Aardvark Krokomierz\n<a href="http://www.aardvarkvisualsoftware.com">www.aardvarkvisualsoftware.com</a> </string>
+</resources>

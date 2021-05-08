@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Шагоме́р ардварк</string>
+    <string name="title_section1">Шаги в час</string>
+    <string name="title_section2">Шагов в день</string>
+    <string name="title_section3">Расстояние в час</string>
+    <string name="title_section4">Расстояние за день</string>
+    <string name="title_section5">Step Cadence</string>
+    <string name="title_section6">ардварк настройки</string>
+    <string name="action_stopservice">пуст Шагоме́р</string>
+    <string name="action_startservice">остановить Шагоме́р</string>
+    <string name="action_importstepfile">Import Step data from Archive File</string>
+    <string name="action_exportstepfile">Export Step data to Archive File</string>
+    <string name="action_selectimportfile">Select file to import</string>
+    <string name="action_selectexportfile">Select file for export</string>
+    <string name="pref_step_counter">Использование интегрированной шагомер</string>
+    <string name="pref_step_counter_summary">Use the devices built-in step counter rather than the aardvark counter, when available</string>
+    <string name="aardvark_about_summary">Aardvark Ped Analysis version 1.0\n&#169;copyright 2015 Aardvark Visual Software</string>
+    <string name="aardvark_build_id">Undefined</string>
+    <string name="pref_step_retention_time_title">очистить журнал шагов после </string>
+    <string name="pref_stride_length_title">длина шага</string>
+    <string name="stride_length_summary_english">Длина шага в дюймах\n(Used for distance calculation)"</string>
+    <string name="stride_length_summary_metric">Длина шага в см\n(Used for distance calculation)"</string>
+    <string name="measurement_system_title">измерительная система</string>
+    <string name="measurement_system_default">metric</string>
+    <string name="measurement_system_summary">Select english (inches and miles) or metric (cm and km)"</string>
+    <string name="miles">миль</string>
+    <string name="kilometers">километров</string>
+    <string name="archive_data_title">ясно, или Архив журнал шагов</string>
+    <string name="archive_data_summary">When step data is cleared, archive the old data or just clear it? </string>
+    <string name="pref_scan_heart_rate">Scan for heart rate devices</string>
+    <string name="pref_scan_heart_rate_summary">Scan for bluetooth heart rate devices</string>
+</resources>

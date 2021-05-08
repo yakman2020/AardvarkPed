@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aardvark Krokomierz Więcej</string>
+    <string name="title_section1">Kroków na godzinę</string>
+    <string name="title_section2">Kroków na dzień</string>
+    <string name="title_section3">Odległość na godzinę</string>
+    <string name="title_section4">Kroków na dzień</string>
+    <string name="title_section5">Krok rytm</string>
+    <string name="title_section6">Ustawienia dla Aardvark Ped</string>
+    <string name="action_stopservice">Zatrzymaj Aardvark usługę</string>
+    <string name="action_startservice">Uruchom Aardvark usługę</string>
+    <string name="action_importstepfile">Importare file al Registro di Passi</string>
+    <string name="action_exportstepfile">Esportare Registro di Passi a file</string>
+    <string name="action_selectimportfile">Select file to import</string>
+    <string name="action_selectexportfile">Select file for export</string>
+    <string name="pref_step_counter">Preferisco Contapassi Sistema</string>
+    <string name="pref_step_counter_summary">Uso il contapassi integrale del dispositivo invece di Aardvark contatore</string>
+    <string name="aardvark_about_summary">Aardvark Ped Analysis version 1.0\n&#169;copyright 2015 Aardvark Visual Software</string>
+    <string name="aardvark_build_id">Undefined</string>
+    <string name="pref_step_retention_time_title">cancellare i dati di log passo dopo</string>
+    <string name="pref_stride_length_title">intervallo significativo</string>
+    <string name="stride_length_summary_english">intervallo significativo di pollici\n(Used for distance calculation)"</string>
+    <string name="stride_length_summary_metric">intervallo significativo di cm\n(Used for distance calculation)"</string>
+    <string name="measurement_system_title">sistema di misurazione</string>
+    <string name="measurement_system_default">metric</string>
+    <string name="measurement_system_summary">Selezionare dal sistema statunitense (pollici e miglia) o metriche (cm e km)</string>
+    <string name="miles">Miglia</string>
+    <string name="kilometers">Chilometri</string>
+    <string name="archive_data_title">Archivio dati vecchi di passi</string>
+    <string name="archive_data_summary">Quando i dati passo viene cancellato, archiviare i dati vecchi o semplicemente cancellarlo?</string>
+    <string name="pref_scan_heart_rate">Cerca dispositivi frequenza cardiaca</string>
+    <string name="pref_scan_heart_rate_summary">Cerca dispositivi frequenza cardiaca bluetooth</string>
+    <string name="scan_confirm">Cerca dispositivi frequenza cardiaca</string>
+    <string name="scan_confirm_text">Scansione per i dispositivi della frequenza cardiaca bluetooth richiederà alcuni minuti.\nDispositivi al momento noti sono:</string>
+</resources>

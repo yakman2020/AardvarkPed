@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_app_name"> פדומטר ארדורק</string>
+    <string name="num_steps">   0</string>
+    <string name="num_steps_label">צעדים</string>
+    <string name="distance">   0</string>
+    <string name="distance_label_metric">דיסטנס קם</string>
+    <string name="distance_label_english">דיסטנס םי</string>
+    <string name="reset_label">אפס</string>
+    <string name="time_start">00:00:00am</string>
+    <string name="elapsed_time">00:00:00</string>
+    <string name="time_start_label">ההתחיל</string>
+    <string name="elapsed_time_label">חלף</string>
+    <string name="heart_rate">000</string>
+</resources>

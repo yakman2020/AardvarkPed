@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aardvark Pedometre artı</string>
+    <string name="title_section1">Satte Adımlar</string>
+    <string name="title_section2">Günde Adımlar</string>
+    <string name="title_section3">Satte Mesafe</string>
+    <string name="title_section4">Günde Mesafe</string>
+    <string name="title_section5">Ritim Adım</string>
+    <string name="title_section6">Ayarlar Aardvark Ped</string>
+    <string name="action_stopservice">Aardvark sayaç hizmetini durdurun</string>
+    <string name="action_startservice">Aardvark sayaç hizmetini başlatın</string>
+    <string name="action_importstepfile">Import Step data from Archive File</string>
+    <string name="action_exportstepfile">Export Step data to Archive File</string>
+    <string name="action_selectimportfile">Select file to import</string>
+    <string name="action_selectexportfile">Select file for export</string>
+    <string name="pref_step_counter">Entegre adım ölçer tercih ediyor</string>
+    <string name="pref_step_counter_summary">Yerine Aardvark sayaç pedometre ayrılmaz aygıtı kullanın</string>
+    <string name="aardvark_about_summary">Aardvark Ped Analysis version 1.0\n&#169;copyright 2015 Aardvark Visual Software</string>
+    <string name="aardvark_build_id">Undefined</string>
+    <string name="pref_step_retention_time_title">Günlük veri adımı silme</string>
+    <string name="pref_stride_length_title">adım uzunluğu</string>
+    <string name="stride_length_summary_english">inç adım uzunluğu\n(mesafeyi hesaplamak için kullanılır)"</string>
+    <string name="stride_length_summary_metric">santimetre adım uzunluğu\n(mesafeyi hesaplamak için kullanılır)"</string>
+    <string name="measurement_system_title">US sisteminden seçin (inç ve mil) veya metrik (cm km)</string>
+    <string name="measurement_system_default">metric</string>
+    <string name="measurement_system_summary">ölçüm sistemi</string>
+    <string name="miles">Mil</string>
+    <string name="kilometers">Km</string>
+    <string name="archive_data_title">Adımların Arşiv eski veri</string>
+    <string name="archive_data_summary">Adım verisi kaldırıldığında, eski verileri arşivlemek ya da sadece açık?</string>
+    <string name="pref_scan_heart_rate">Kalp hızı cihazları tara</string>
+    <string name="pref_scan_heart_rate_summary">Bluetooth kalp hızı cihazları için arama</string>
+    <string name="scan_confirm">Kalp hızı cihazları tara</string>
+    <string name="scan_confirm_text">Bluetooth kalp hızı cihazları aramaya birkaç dakika sürecektir.\nBilinen cihazlar:</string>
+</resources>

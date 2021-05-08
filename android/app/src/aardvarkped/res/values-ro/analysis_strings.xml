@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aardvark Pedometru Plus</string>
+    <string name="title_section1">Pași pe Oră</string>
+    <string name="title_section2">Pasi pe Zi</string>
+    <string name="title_section3">Distanța Pe Oră</string>
+    <string name="title_section4">Distanța Pe Zi</string>
+    <string name="title_section5">Rata de pași</string>
+    <string name="title_section6">Aardvark Ped Setări</string>
+    <string name="action_stopservice">Opriți serviciul Aardvark</string>
+    <string name="action_startservice">Începe serviciul Aardvark</string>
+    <string name="action_importstepfile">Import date din arhiva</string>
+    <string name="action_exportstepfile">Export date in arhiva</string>
+    <string name="action_selectimportfile">Selectaţi fişierul de import:</string>
+    <string name="action_selectexportfile">Selectaţi fişierul de export:</string>
+    <string name="pref_step_counter">Prefer pedometru sistem</string>
+    <string name="pref_step_counter_summary">Foloeste pedometru implicit in loc de Aardvark</string>
+    <string name="aardvark_about_summary">Aardvark Ped Analysis version 1.0\n&#169;copyright 2015 Aardvark Visual Software</string>
+    <string name="aardvark_build_id">Undefined</string>
+    <string name="pref_step_retention_time_title">Step log data cleared after</string>
+    <string name="pref_stride_length_title">Lungimea Pasului</string>
+    <string name="stride_length_summary_english">Lungimea pasului în inci\n(Folosit pentru calculul distanță)</string>
+    <string name="stride_length_summary_metric">Lungimea pasului în cm\n(Folosit pentru calculul distanță)</string>
+    <string name="measurement_system_title">Sistem de Măsuri</string>
+    <string name="measurement_system_default">metric</string>
+    <string name="measurement_system_summary">Selectați sistemul american (inchi și mile) sau metric (cm și km)</string>
+    <string name="miles">Miles</string>
+    <string name="kilometers">Kilometri</string>
+    <string name="archive_data_title">Arhivă vechi date de pasi</string>
+    <string name="archive_data_summary">Atunci când datele sunt șterse, salvez informatia in arhivă?</string>
+    <string name="pref_scan_heart_rate">Căutare dispozitive de măsură a ritmului cardiac</string>
+    <string name="pref_scan_heart_rate_summary">Căutare dispozitive Bluetooth de măsură a ritmului cardiac</string>
+    <string name="scan_confirm">Scanare dispositive măsură a ritm ului cardiac</string>
+    <string name="scan_confirm_text">Scanare dispozitive de măsură a ritmului cardiac. Dispozitive prezent cunoscute:</string>
+</resources>

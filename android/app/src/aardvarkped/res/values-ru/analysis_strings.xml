@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Шагоме́р ардварк</string>
+    <string name="title_section1">Шаги в час</string>
+    <string name="title_section2">Шагов в день</string>
+    <string name="title_section3">Расстояние в час</string>
+    <string name="title_section4">Расстояние за день</string>
+    <string name="title_section5">ритм шага</string>
+    <string name="title_section6">ардварк настройки</string>
+    <string name="action_stopservice">пуст Шагоме́р</string>
+    <string name="action_startservice">остановить Шагоме́р</string>
+    <string name="action_importstepfile">Шаг Данные импорта от Архивного файла</string>
+    <string name="action_exportstepfile">Экспортные Шаг данные к Архивному файлу</string>
+    <string name="action_selectimportfile">Выберите файл, чтобы импортировать</string>
+    <string name="action_selectexportfile">Выберите файл для экспорта</string>
+    <string name="pref_step_counter">Использование интегрированной шагомер</string>
+    <string name="pref_step_counter_summary">Используйте устройства интегрированный прилавок шага, а не прилавок ардварк, (когда доступный)</string>
+    <string name="aardvark_about_summary">Aardvark Ped Analysis version 1.0\n&#169;copyright 2015 Aardvark Visual Software</string>
+    <string name="aardvark_build_id">Undefined</string>
+    <string name="pref_step_retention_time_title">очистить журнал шагов после </string>
+    <string name="pref_stride_length_title">длина шага</string>
+    <string name="stride_length_summary_english">Длина шага в дюймах\n(Used for distance calculation)</string>
+    <string name="stride_length_summary_metric">Длина шага в см\n(Used for distance calculation)</string>
+    <string name="measurement_system_title">измерительная система</string>
+    <string name="measurement_system_default">metric</string>
+    <string name="measurement_system_summary">Выберите английский язык (дюймы и мили) или метрика (cm и км)</string>
+    <string name="miles">миль</string>
+    <string name="kilometers">километров</string>
+    <string name="archive_data_title">ясно, или Архив журнал шагов</string>
+    <string name="archive_data_summary">Когда шаг данные будут удалены, заархивируйте старые данные или просто удалите их? </string>
+    <string name="pref_scan_heart_rate">поиск для устройств для измерения пульса</string>
+    <string name="pref_scan_heart_rate_summary">Просмотр для bluetooth-устройств для измерения пульса</string>
+    <string name="scan_confirm">поиск для устройств для измерения пульса?</string>
+    <string name="scan_confirm_text">Обнаружение устройства займет несколько минут. Известные устройства:</string>
+</resources>

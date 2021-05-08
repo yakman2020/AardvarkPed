@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">מד צעדים Aardvark חנם</string>
+    <string name="title_section1">צעדים לשעה</string>
+    <string name="title_section2">צעדים ליום</string>
+    <string name="title_section3">מרחק לשעה</string>
+    <string name="title_section4">מרחק ליום</string>
+    <string name="title_section5">מהירות ההליכה</string>
+    <string name="title_section6">הגדרות ארדברק</string>
+    <string name="action_stopservice">הפסק שירות Aardvark</string>
+    <string name="action_startservice">הפעל שירות Aardvark</string>
+    <string name="action_importstepfile">יבוא את נתונים צעדים מקובץ הארכיון</string>
+    <string name="action_exportstepfile">ייצא את נתונים צעדים לקובץ הארכיון</string>
+    <string name="action_selectimportfile">בחר קובץ ליבוא</string>
+    <string name="action_selectexportfile">בחר קובץ ליצוא</string>
+    <string name="pref_step_counter">מעדיף מונה צעדים משולבים</string>
+    <string name="pref_step_counter_summary">השתמש מונה הצעדים המובנה של המכשיר ולא נגד Aardvark, כאשר זמין</string>
+    <string name="aardvark_about_summary">Aardvark Ped Analysis version 1.0\n&#169;copyright 2015 Aardvark Visual Software</string>
+    <string name="aardvark_build_id">Undefined</string>
+    <string name="pref_step_retention_time_title">מחיקת נתוני יומן צעד אחרי </string>
+    <string name="pref_stride_length_title">אורך צעד</string>
+    <string name="stride_length_summary_english">אורך צעד באינצ\'\ים\n(המשמש לחישוב מרחק)</string>
+    <string name="stride_length_summary_metric">אורך צעד בס\"מ\n(המשמש לחישוב מרחק)"</string>
+    <string name="measurement_system_title">שיטת מדידה</string>
+    <string name="measurement_system_default">metric</string>
+    <string name="measurement_system_summary">בחר אנגלית (אינץ \'ומיילים) או מטרי (סנטימטר וקילומטר)</string>
+    <string name="miles">מיילס</string>
+    <string name="kilometers">קילומטרים</string>
+    <string name="archive_data_title">ארכוב נתונים צעד ישנים</string>
+    <string name="archive_data_summary">כאשר נתונים צעד נמחקו, ארכיון נתונים הישנים או פשוט למחוק אותו? </string>
+    <string name="pref_scan_heart_rate">סריקה להתקנים מדידת קצב לב</string>
+    <string name="pref_scan_heart_rate_summary">סריקה להתקנים bluetooth מדידת קצב לב</string>
+</resources>

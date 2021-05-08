@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aardvark Stappenteller Vry</string> 
+    <string name="title_section1">Stappen per Uur</string>
+    <string name="title_section2">Stappen per Dag</string>
+    <string name="title_section3">Afstand per Uur</string>
+    <string name="title_section4">Afstand per Dag</string>
+    <string name="title_section5">Stap Kadens</string>
+    <string name="title_section6">Aardvark Ped Instellings</string>
+    <string name="action_stopservice">Diens Stoppen</string>
+    <string name="action_startservice">Diens Starten</string>
+    <string name="action_importstepfile">Stap data invoer van argief</string>
+    <string name="action_exportstepfile">Stap data uitvoer na argief</string>
+    <string name="action_selectimportfile">Kies invoer lêer</string>
+    <string name="action_selectexportfile">Kies lêer vir uitvoer</string>
+    <string name="pref_step_counter">Verkies geïntegreerde pedometer</string>
+    <string name="pref_step_counter_summary">Gebruik die toestelle ingeboude stappenteller toe plek beskikbaar die aardvark teller.</string>
+    <string name="aardvark_about_summary">Aardvark Ped Analysis version 1.0\n&#169;copyright 2015 Aardvark Visual Software</string>
+    <string name="aardvark_build_id">Undefined</string>
+    <string name="pref_step_retention_time_title">Verwyder ou stap data na</string>
+    <string name="pref_stride_length_title">Stap lengte</string>
+    <string name="stride_length_summary_english">Stap lengte in Inch\n(vir die berekening op afstand)</string>
+    <string name="stride_length_summary_metric">Stap lengte in cm\n(vir die berekening op afstand)</string>
+    <string name="measurement_system_title">Meet stelsel</string>
+    <string name="measurement_system_default">metric</string>
+    <string name="measurement_system_summary">Amerikaanse stelsel (duim en myl) of Metrieke (Cm en Km)</string>
+    <string name="miles">myl</string>
+    <string name="kilometers">kilometer</string>
+    <string name="archive_data_title">Argief ou stap data</string>
+    <string name="archive_data_summary">Wanneer stap data is gedaal, argief die ou data of verwyder die enkel?</string>
+    <string name="pref_scan_heart_rate">Skandering op hartklop toestel</string>
+    <string name="pref_scan_heart_rate_summary">Scan vir Bluetooth hartklop toestelle</string>
+</resources>

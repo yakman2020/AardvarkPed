@@ -1,0 +1,140 @@
+apply plugin: 'com.android.application'
+
+task generateSources(type: Exec) {
+    workingDir "."
+    commandLine = ["python", "GenerateBuildInfo.py"]
+
+//    doFirst {
+//        def script = "python GenerateBuildInfo.py".execute()
+//        script.in.eachLine {line -> println line}
+//        script.err.eachLine {line -> println "ERROR: " + line}
+//        script.waitFor()
+//    }
+}
+
+allprojects {
+    preBuild.dependsOn(generateSources)
+    repositories {
+        maven {
+            url "https://repository-achartengine.forge.cloudbees.com/snapshot/"
+        }
+    }
+}
+
+android {
+    signingConfigs {
+        config_plus {
+            keyAlias 'pedkey'
+            keyPassword 'GortFmSBg2MxHeMikmKlaatu'
+            storeFile file('/space/aardvark/keystore/aardvarkpedkeystore2')
+            storePassword 'GortjaRVefNWjxUeDfKlaatu'
+        }
+    }
+    compileSdkVersion 'android-23'
+    buildToolsVersion '24.0.0 rc3'
+    lintOptions {
+        abortOnError false
+    }
+    defaultConfig {
+        applicationId "com.aardvark_visual.ped"
+        minSdkVersion 16
+        targetSdkVersion 21
+        versionCode 10
+        versionName '1.1'
+        signingConfig signingConfigs.config_plus
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'AndroidManifest.xml'
+    }
+    productFlavors {
+        aardvarkped_free {
+            applicationId "com.aardvark_visual.ped.aardvarkped_free"
+            minSdkVersion 16
+            targetSdkVersion 23
+            versionCode 231
+            versionName '1.2_free'
+            buildConfigField "boolean", "HasAdvertising", "true"
+            buildConfigField "boolean", "HasHeartRate", "false"
+            buildConfigField "boolean", "HasRunning", "false"
+            buildConfigField "boolean", "HasCycling", "false"
+            buildConfigField "boolean", "HasStairs", "false"
+            buildConfigField "boolean", "HasCalasthenics", "false"
+            buildConfigField "boolean", "HasExternalGPS", "false"
+            buildConfigField "boolean", "HasInternalGPS", "false"
+            buildConfigField "boolean", "HasMaps", "false"
+            buildConfigField "boolean", "HasBloodPressure", "false"
+            buildConfigField "boolean", "HasPulseOx", "false"
+            buildConfigField "boolean", "HasGlucose", "false"
+            buildConfigField "boolean", "HasAndroidWearable", "false"
+            buildConfigField "boolean", "HasSleepPattern", "false"
+            manifestPlaceholders = [application_name: "com.aardvark_visual.ped.aardvarkpedanalysis.AardvarkPedAnalysis",
+                                    application_icon: "aardvark_ped_icon_free"]
+        }
+        aardvarkped {
+            applicationId 'com.aardvark_visual.ped'
+            minSdkVersion 16
+            targetSdkVersion 23
+            versionCode 39
+            versionName '1.2'
+            buildConfigField "boolean", "HasAdvertising", "false"
+            buildConfigField "boolean", "HasHeartRate", "false"
+            buildConfigField "boolean", "HasRunning", "false"
+            buildConfigField "boolean", "HasCycling", "false"
+            buildConfigField "boolean", "HasStairs", "false"
+            buildConfigField "boolean", "HasCalasthenics", "false"
+            buildConfigField "boolean", "HasExternalGPS", "false"
+            buildConfigField "boolean", "HasInternalGPS", "false"
+            buildConfigField "boolean", "HasMaps", "false"
+            buildConfigField "boolean", "HasBloodPressure", "false"
+            buildConfigField "boolean", "HasPulseOx", "false"
+            buildConfigField "boolean", "HasGlucose", "false"
+            buildConfigField "boolean", "HasAndroidWearable", "false"
+            buildConfigField "boolean", "HasSleepPattern", "false"
+            manifestPlaceholders = [application_name: "com.aardvark_visual.ped.aardvarkpedanalysis.AardvarkPedAnalysis",
+                                    application_icon: "aardvark_ped_icon"]
+            signingConfig signingConfigs.config_plus
+        }
+        aardvarkpedplus {
+            applicationId "com.aardvark_visual.ped.aardvarkpedplus"
+            minSdkVersion 16
+            targetSdkVersion 23
+            versionCode 1022
+            versionName '1.2'
+            buildConfigField "boolean", "HasAdvertising", "false"
+            buildConfigField "boolean", "HasHeartRate", "true"
+            buildConfigField "boolean", "HasRunning", "true"
+            buildConfigField "boolean", "HasCycling", "true"
+            buildConfigField "boolean", "HasStairs", "true"
+            buildConfigField "boolean", "HasCalasthenics", "true"
+            buildConfigField "boolean", "HasExternalGPS", "true"
+            buildConfigField "boolean", "HasInternalGPS", "true"
+            buildConfigField "boolean", "HasMaps", "true"
+            buildConfigField "boolean", "HasBloodPressure", "true"
+            buildConfigField "boolean", "HasPulseOx", "true"
+            buildConfigField "boolean", "HasGlucose", "true"
+            buildConfigField "boolean", "HasAndroidWearable", "true"
+            buildConfigField "boolean", "HasSleepPattern", "true"
+            manifestPlaceholders = [application_name: "com.aardvark_visual.ped.aardvarkpedanalysis.AardvarkPedAnalysis",
+                                    application_icon: "aardvark_ped_icon"]
+            signingConfig signingConfigs.config_plus
+        }
+    }
+}
+
+gradle.projectsEvaluated {
+    preBuild.dependsOn(generateSources)
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/aarvarkped_free/amazon-ads-5.6.20.jar')
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.android.support:support-v13:21.0.3'
+    compile 'com.google.android.gms:play-services-ads:7.0.0'
+}

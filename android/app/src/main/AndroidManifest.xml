@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.aardvark_visual.ped" >
+    android:sharedUserId="com.aardvark_visual.ped"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+
+    <supports-screens 
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:anyDensity="true" />
+
+    <application
+        tools:replace="android:icon"
+        android:allowBackup="true"
+        android:icon="@drawable/${application_icon}"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo" >
+
+        <receiver android:name=".aardvarkpedwidget.AardvarkPedWidgetProvider" >
+            <intent-filter>
+                <action android:name="com.aardvark_visual.ped.aardvarkpedwidget.intent.action.UPDATE_WIDGET" />
+                <action android:name="com.aardvark_visual.ped.aardvarkpedwidget.intent.action.UPDATE_STEP_COUNT" />
+                <action android:name="com.aardvark_visual.ped.aardvarkpedwidget.intent.action.UPDATE_HEART_COUNT" />
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"/>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.appwidget.action.APPWIDGET_ENABLED" />
+                <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
+                <action android:name="android.appwidget.action.APPWIDGET_DISABLED" />
+                <action android:name="com.aardvark_visual.ped.aardvarkpedwidget.intent.action.START_COUNT"/>
+                <action android:name="com.aardvark_visual.ped.aardvarkpedwidget.intent.action.STOP_COUNT"/>
+                <action android:name="com.aardvark_visual.ped.aardvarkpedwidget.intent.action.RESET_COUNT"/>
+                <action android:name="com.aardvark_visual.ped.aardvarkpedservice.action.MIDNIGHT_CLEANUP"/>
+                <action android:name="com.aardvark_visual.ped.stride_length_in_meters_update"/>
+                <action android:name="com.aardvark_visual.ped.show_metric_update"/>
+                <action android:name="com.aardvark_visual.ped.use_native_counter_update"/>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/aardvark_ped_widget_provider" />
+        </receiver>
+
+        <service
+            android:name=".aardvarkpedwidget.AardvarkPedService"
+            android:enabled="true"
+            android:singleUser="true"
+            android:stopWithTask="false"
+            android:exported="true" >
+        </service>
+
+        <service
+            android:name=".aardvarkpedwidget.AardvarkPedWidgetService"
+            android:exported="false" >
+        </service>
+        <activity
+            android:name="com.aardvark_visual.ped.aardvarkpedanalysis.AardvarkPedAnalysis"
+            android:taskAffinity="com.aardvark_visual.ped.aardvarkpedanalysis.AardvarkPedAnalysis"
+            android:label="@string/app_name"
+            android:configChanges="orientation|screenSize"
+            android:icon="@drawable/${application_icon}" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+
+</manifest>

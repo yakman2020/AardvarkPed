@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Šagomér Aardvark plus</string>
+    <string name="title_section1">Korake po satu</string>
+    <string name="title_section2">Koraka po dnevno</string>
+    <string name="title_section3">Udaljenost po satu</string>
+    <string name="title_section4">Udaljenost po danu</string>
+    <string name="title_section5">Korak Ritam</string>
+    <string name="title_section6">Aardvark postavke</string>
+    <string name="action_stopservice">Zaustavi Šagomér</string>
+    <string name="action_startservice">Pokrenite Šagomér</string>
+    <string name="action_importstepfile">Uvoz podataka korak iz datoteke Arhiva</string>
+    <string name="action_exportstepfile">Izvoz Korak baze podataka u datoteku</string>
+    <string name="action_selectimportfile">Odaberite datoteku za uvoz</string>
+    <string name="action_selectexportfile">Odaberite datoteku za izvoz</string>
+    <string name="pref_step_counter">Koristite integrirane pedometar</string>
+    <string name="pref_step_counter_summary">Koristite integrirati pedometar u ovom mobilnom uređaju, a ne Aardvark korak brojača. </string>
+    <string name="aardvark_about_summary">Aardvark Ped Analysis version 1.0\n&#169;copyright 2015 Aardvark Visual Software</string>
+    <string name="aardvark_build_id">Undefined</string>
+    <string name="pref_step_retention_time_title">Jasne korak podatke nakon</string>
+    <string name="pref_stride_length_title">Dužina koraka</string>
+    <string name="stride_length_summary_english">Dužina koraka u inča \n (koristi se za izračun udaljenosti)</string>
+    <string name="stride_length_summary_metric">Dužina koraka u cm \n (koristi se za izračun udaljenosti)</string>
+    <string name="measurement_system_title"> Mjerni sustav</string>
+    <string name="measurement_system_default">metric</string>
+    <string name="measurement_system_summary">Odaberite engleski (palac i milja) ili metrički (cm i km)</string>
+    <string name="miles">milja</string>
+    <string name="kilometers">kilometara</string>
+    <string name="archive_data_title">Brisanje ili arhiva korake podatke</string>
+    <string name="archive_data_summary">Kada korak podaci će biti izbrisani, arhiviranje starih podataka ili samo obrisati? </string>
+    <string name="pref_scan_heart_rate">Traženje uređaja za mjerenje pulsa</string>
+    <string name="pref_scan_heart_rate_summary">Traženje bluetooth uređaja za mjerenje pulsa</string>
+    <string name="scan_confirm">Traženje uređaja za mjerenje pulsa? </string>
+    <string name="scan_confirm_text">Uređaj otkrivanja može potrajati nekoliko minuta. Poznati uređaji:</string>
+</resources>

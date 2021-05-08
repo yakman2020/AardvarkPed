@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pédomètre Aardvark</string>
+    <string name="title_section1">Pas par Heure</string>
+    <string name="title_section2">Pas par Jour</string>
+    <string name="title_section3">Distance par Heure</string>
+    <string name="title_section4">Distance par Jour</string>
+    <string name="title_section5">Step Cadence</string>
+    <string name="title_section6">Paramètres Ped Aardvark</string>
+    <string name="action_stopservice">Stop Aardvark Counter</string>
+    <string name="action_startservice">Start Aardvark Counter</string>
+    <string name="action_importstepfile">Import Step data from Archive File</string>
+    <string name="action_exportstepfile">Export Step data to Archive File</string>
+    <string name="action_selectimportfile">Select file to import</string>
+    <string name="action_selectexportfile">Select file for export</string>
+    <string name="pref_step_counter">Préférez moniteur d\'activité intégrée</string>
+    <string name="pref_step_counter_summary">Use the devices built-in step counter rather than the aardvark counter, when available</string>
+    <string name="aardvark_about_summary">Aardvark Ped Analysis version 1.0\n&#169;copyright 2015 Aardvark Visual Software</string>
+    <string name="aardvark_build_id">Undefined</string>
+    <string name="pref_step_retention_time_title">Step log data cleared after</string>
+    <string name="pref_stride_length_title">Longueur Foulée</string>
+    <string name="stride_length_summary_english">"Longueur de la foulée en inches\n(utilisé pour la distance calculation)"</string>
+    <string name="stride_length_summary_metric">"Longueur de la foulée en cm\n(utilisé pour la distance calculation)"</string>
+    <string name="measurement_system_title">système de mesure</string>
+    <string name="measurement_system_default">metric</string>
+    <string name="measurement_system_summary">Choisissez parmi système américain (pouces et des miles) ou métrique (cm) et le km</string>
+    <string name="miles">miles</string>
+    <string name="kilometers">kilomètres</string>
+    <string name="archive_data_title">Archive old step data</string>
+    <string name="archive_data_summary">When step data is cleared, archive the old data or just clear it? </string>
+    <string name="pref_scan_heart_rate">Scan for heart rate devices</string>
+    <string name="pref_scan_heart_rate_summary">Scan for bluetooth heart rate devices</string>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feature_unavailable_message">Bu özellik ücretsiz sürümü kullanılamaz.\nBu özelliği kullanmak için Aardvark Adımsayar ücretli versiyonu yükseltin lütfen\n<a href="http://www.aardvarkvisualsoftware.com">www.aardvarkvisualsoftware.com</a> </string>
+</resources>

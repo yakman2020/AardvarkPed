@@ -1,0 +1,221 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:amazon="http://schemas.amazon.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".AardvarkPedAnalysis$PlaceholderFragment"
+    android:padding="0dp">
+
+    <TextView android:id="@+id/section_label" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TabHost
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/tabHost"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/section_label">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"></TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dip">
+
+                <RelativeLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:minHeight="100dip"
+                    android:minWidth="320dip"
+                    android:layout_gravity="start|bottom"
+                    android:layout_margin="0dp"
+                    android:padding="0dp"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="0dp">
+
+                    <LinearLayout
+                        android:id="@+id/chart1"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:weightSum="1"
+                        android:layout_below="@+id/advertising1"
+                        android:padding="0dp"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+                        android:paddingTop="0dp"
+                        android:paddingBottom="0dp">
+                    </LinearLayout>
+                    <com.amazon.device.ads.AdLayout
+                       android:id="@+id/advertising1"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_centerHorizontal="true"
+                       android:gravity="top"
+                        android:minWidth="320dp"
+                        android:layout_margin="0dp"
+                        amazon:adSize="320x50" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:minHeight="100dip"
+                    android:minWidth="200dip"
+                    android:layout_gravity="left|bottom">
+
+                    <LinearLayout
+                        android:id="@+id/chart2"
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:weightSum="1"
+                        android:layout_below="@+id/advertising2">
+                    </LinearLayout>
+                        <com.amazon.device.ads.AdLayout
+                        android:id="@+id/advertising2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="top"
+                        android:minWidth="320dp"
+                        android:layout_margin="0dp" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/tab3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:minHeight="100dip"
+                    android:minWidth="200dip"
+                    android:layout_gravity="left|bottom">
+
+                    <LinearLayout
+                        android:id="@+id/chart3"
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+                        <com.amazon.device.ads.AdLayout
+                           android:id="@+id/advertising3"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_centerHorizontal="true"
+                           android:gravity="top"
+                           android:minWidth="320dp"
+                           android:layout_margin="0dp"
+                           amazon:adSize="320x50" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/tab4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:minHeight="100dip"
+                    android:minWidth="200dip"
+                    android:layout_gravity="left|bottom">
+
+                    <LinearLayout
+                        android:id="@+id/chart4"
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"></LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/tab5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:minHeight="100dip"
+                    android:minWidth="200dip"
+                    android:layout_gravity="left|bottom">
+
+                    <RelativeLayout
+                        android:id="@+id/chart5"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    </RelativeLayout>
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/heart_rate_visible"
+                        android:src="@drawable/heart_icon_small"
+                        android:scaleType="fitCenter"
+                        android:background="#00ffffff"
+                        android:layout_gravity="right"
+                        android:layout_marginTop="20dp"
+                        android:layout_alignParentStart="false"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="false"
+                        android:layout_alignTop="@+id/chart5"
+                        android:layout_alignRight="@+id/chart5"
+                        android:visibility="gone" />
+                </RelativeLayout>
+                <LinearLayout
+                    android:id="@+id/tab6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="1"
+                    android:layout_below="@+id/advertising6">
+                    <ListView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/list" />
+                </LinearLayout>
+                        <com.amazon.device.ads.AdLayout
+                           android:id="@+id/advertising6" 
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_centerHorizontal="true"
+                           android:gravity="top"
+                           android:minWidth="320dp"
+                           android:layout_margin="0dp"
+                           amazon:adSize="320x50" />
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:minHeight="100dip"
+        android:minWidth="200dip"
+        android:layout_gravity="left|bottom"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="389dp"
+        android:layout_marginStart="389dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </RelativeLayout>
+</RelativeLayout>

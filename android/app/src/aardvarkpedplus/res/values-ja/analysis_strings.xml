@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">歩数計 Aardvark</string>
+    <string name="title_section1">時間あたりの歩数</string>
+    <string name="title_section2">一日あたりの歩数</string>
+    <string name="title_section3">一時間当たり距離</string>
+    <string name="title_section4">一日あたりの距離</string>
+    <string name="title_section5">歩調</string>
+    <string name="title_section6">歩数計 の設定Aardvark</string>
+    <string name="action_stopservice">カウンター Aardvark ストップ</string>
+    <string name="action_startservice">カウンタ Aardvark スタート</string>
+    <string name="action_importstepfile">アーカイブファイルからインポート履歴データ</string>
+    <string name="action_exportstepfile">アーカイブファイルへのエクスポート履歴データ</string>
+    <string name="action_selectimportfile">インポート用ファイルを選択</string>
+    <string name="action_selectexportfile">エクスポートのファイル選択</string>
+    <string name="pref_step_counter">このデバイスの統合ステップカウンタを好みます</string>
+    <string name="pref_step_counter_summary">このモバイルデバイスに内蔵されてステップカウンタ、またはアードバークステップカウンタを使用しての間で選択します。</string>
+    <string name="aardvark_about_summary">Aardvark Ped Analysis version 1.1\n&#169;Copyright 2015 Aardvark Visual Software</string>
+    <string name="aardvark_build_id">Undefined</string>
+    <string name="pref_step_retention_time_title">後の明確なステップ履歴データ</string>
+    <string name="pref_stride_length_title">ステップ長</string>
+    <string name="stride_length_summary_english">歩の長さ (インチ)\n(これは、距離の計算に使用されます)</string>
+    <string name="stride_length_summary_metric">歩の長さ（センチメートル）\n(これは、距離の計算に使用されます)</string>
+    <string name="measurement_system_title">測定系</string>
+    <string name="measurement_system_default">metric</string>
+    <string name="measurement_system_summary">メトリック（キロ、センチ）、または英国（インチマイル）との間で選択します。</string>
+    <string name="miles">マイルズ</string>
+    <string name="kilometers">キロメートル</string>
+    <string name="archive_data_title">アーカイブファイルに古いステップデータを書きますか？</string>
+    <string name="archive_data_summary">代わりにそれを削除するアーカイブファイルに古いステップデータを書き込みます? </string>
+    <string name="pref_scan_heart_rate"></string>
+    <string name="pref_scan_heart_rate_summary">ブルートゥース心拍デバイスを検索します。</string>
+    <string name="scan_confirm">今のBluetooth心拍デバイスを検索しますか？</string>
+    <string name="scan_confirm_text">ブルートゥース心拍デバイスの検索には数分かかります。\n 現在知られているデバイスは、次のとおりです。:</string>
+</resources>

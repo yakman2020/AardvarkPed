@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feature_unavailable_message">此功能在免費版本不可用。\n 要使用此功能，請升級到土豚計步器的付費版本\n<a href="http://www.aardvarkvisualsoftware.com">www.aardvarkvisualsoftware.com</a> </string>
+</resources>

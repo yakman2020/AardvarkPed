@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".AardvarkPedAnalysis">
+    <item android:id="@+id/action_startservice" android:title="@string/action_startservice"
+        android:orderInCategory="100" app:showAsAction="never"/>
+    <item android:id="@+id/action_stopservice" android:title="@string/action_stopservice"
+        android:orderInCategory="101" app:showAsAction="never">
+    </item>
+    <item android:id="@+id/action_importstepfile"
+          android:title="@string/action_importstepfile"
+          android:orderInCategory="102"
+          android:showAsAction="ifRoom" >
+          <menu xmlns:android="http://schemas.android.com/apk/res/android">
+               >
+              <item android:id="@+id/action_selectimportfile"
+                    android:title="@string/action_selectimportfile"
+                    android:orderInCategory="100"
+                    android:clickable="false"
+                        app:showAsAction="never"/>
+              // We will add more items programatically  (each file in the logs directory)
+          </menu>
+    </item>
+    <item android:id="@+id/action_exportstepfile" android:title="@string/action_exportstepfile"
+        android:orderInCategory="103" app:showAsAction="ifRoom">
+              <item android:id="@+id/action_selectexportfile"
+                    android:title="@string/action_selectexportfile"
+                    android:orderInCategory="100"
+                    android:clickable="false"
+                        app:showAsAction="ifRoom"/>
+    </item>
+</menu>

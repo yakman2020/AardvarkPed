@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="app_name">Aardvark Krokoměr Volný</string>
+   <string name="title_section1">Kroky za hodinu</string>
+   <string name="title_section2">Kroky za den</string>
+   <string name="title_section3">Vzdálenost za hodinu</string>
+   <string name="title_section4">Vzdálenost za den</string>
+   <string name="title_section5">Krok rytmus</string>
+   <string name="title_section6">Aardvark nastavení</string>
+   <string name="action_stopservice">Zastavení Krokoměr</string>
+   <string name="action_startservice">Spustit Krokoměr</string>
+   <string name="action_importstepfile">Importovat data ze souboru krok archiv</string>
+   <string name="action_exportstepfile">Exportovat data kroku na souboru</string>
+   <string name="action_selectimportfile">Vyberte soubor k importu</string>
+   <string name="action_selectexportfile">Vyberte soubor k exportu</string>
+   <string name="pref_step_counter">Použít integrované krokoměr</string>
+   <string name="pref_step_counter_summary">Pomocí integrovaného krokoměr v mobilním zařízení a nikoliv Aardvark krok čítače. </string>
+   <string name="aardvark_about_summary">Aardvark Ped Analysis version 1.0\n&#169;copyright 2015 Aardvark Visual Software</string>
+   <string name="aardvark_build_id">Undefined</string>
+   <string name="pref_step_retention_time_title">Jasný krok data starší než</string>
+   <string name="pref_stride_length_title">Délka kroku</string>
+   <string name="stride_length_summary_english">Délka Kroku v palcích \n (používá se pro výpočet vzdálenosti)</string>
+   <string name="stride_length_summary_metric">Délka kroku v cm \n (používá se pro výpočet vzdálenosti)</string>
+   <string name="measurement_system_title">Měřicí Systém</string>
+   <string name="measurement_system_default">metric</string>
+   <string name="measurement_system_summary">Vyberte angličtina (palce, míle) nebo metrické (cm a km)</string>
+   <string name="miles">Miles</string>
+   <string name="kilometers">Kilometr</string>
+   <string name="archive_data_title">Odstranit nebo archiv kroky</string>
+   <string name="archive_data_summary">Když kroku dat budou odstraněny, archivace starých dat nebo jen odstranit? </string>
+   <string name="pref_scan_heart_rate">Hledání pro zařízení pro měření tepové frekvence</string>
+   <string name="pref_scan_heart_rate_summary">Hledání zařízení bluetooth pro měření tepové frekvence</string>
+</resources>

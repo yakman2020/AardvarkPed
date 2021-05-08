@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Podómetro Aardvark Gratis</string>
+    <string name="title_section1">Pasos por hora</string>
+    <string name="title_section2">Steps por dia</string>
+    <string name="title_section3">Distancia por hora</string>
+    <string name="title_section4">Distancia por dia</string>
+    <string name="title_section5">Step Cadence</string>
+    <string name="title_section6">Configuración del Aardvark Podómetro</string>
+    <string name="action_stopservice">Detener Servicio Aardvark</string>
+    <string name="action_startservice">Comenzar Servicio Aardvark</string>
+    <string name="action_importstepfile">Import Step data from Archive File</string>
+    <string name="action_exportstepfile">Export Step data to Archive File</string>
+    <string name="action_selectimportfile">Select file to import</string>
+    <string name="action_selectexportfile">Select file for export</string>
+    <string name="pref_step_counter">Prefiero monitor de actividad integrada</string>
+    <string name="pref_step_counter_summary">Utilice el monitor de actividad integrada en lugar de la Aardvark, si está disponible</string>
+    <string name="aardvark_about_summary">Aardvark Ped Analysis version 1.0\n&#169;copyright 2015 Aardvark Visual Software</string>
+    <string name="aardvark_build_id">Undefined</string>
+    <string name="pref_step_retention_time_title">Se borran Días antes de datos de registro paso</string>
+    <string name="pref_stride_length_title">Longitud de zancada</string>
+    <string name="stride_length_summary_english">Longitud de zancada en inches\n(Se utiliza en los cálculos de distancia)</string>
+    <string name="stride_length_summary_metric">Longitud de zancada en cm\n(Se utiliza en los cálculos de distancia)"</string>
+    <string name="measurement_system_title">Sistema De Medición</string>
+    <string name="measurement_system_default">metric</string>
+    <string name="measurement_system_summary">Seleccione sistema de Estados Unidos (pulgadas y millas) o métrica (cm y km)</string>
+    <string name="miles">miles</string>
+    <string name="kilometers">kilómetros</string>
+    <string name="archive_data_title">Archive old step data</string>
+    <string name="archive_data_summary">When step data is cleared, archive the old data or just clear it? </string>
+    <string name="pref_scan_heart_rate">Scan for heart rate devices</string>
+    <string name="pref_scan_heart_rate_summary">Scan for bluetooth heart rate devices</string>
+</resources>

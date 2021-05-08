@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Askelmittari Aardvark</string>
+    <string name="title_section1">Askelta tunnissa</string>
+    <string name="title_section2">Askelta päivässä</string>
+    <string name="title_section3">Etäisyys tunnissa</string>
+    <string name="title_section4">Etäisyys päivässä</string>
+    <string name="title_section5">Askel rytmi</string>
+    <string name="title_section6">Aardvark Asetukset</string>
+    <string name="action_stopservice">Käynnistä askelmittari</string>
+    <string name="action_startservice">Pysäyttää askelmittari</string>
+    <string name="action_importstepfile">Tuo askel tiedot arkistotiedostoon</string>
+    <string name="action_exportstepfile">Vie askel tiedot arkistotiedostoon</string>
+    <string name="action_selectimportfile">Valitse tiedosto tuonti</string>
+    <string name="action_selectexportfile"> Valitse tiedosto vientiin </string>
+    <string name="pref_step_counter">Suosi integroitu askellaskuri</string>
+    <string name="pref_step_counter_summary">Käyttää integroitu askellaskuri, asemesta Aardvark askelmittari , (jos se on käytettävissä)</string>
+    <string name="aardvark_about_summary">Aardvark Ped Analysis version 1.0\n&#169;copyright 2015 Aardvark Visual Software</string>
+    <string name="aardvark_build_id">Undefined</string>
+    <string name="pref_step_retention_time_title">Poista vanhat askel tiedot</string>
+    <string name="pref_stride_length_title">Askelpituus</string>
+    <string name="stride_length_summary_english">Askelpituus tuumaa (käytetään etäisyystiedot)</string>
+    <string name="stride_length_summary_metric">Askelpituus  senttimetreinä (käytetään etäisyystiedot)</string>
+    <string name="measurement_system_title">Mittaus järjestelmä</string>
+    <string name="measurement_system_default">metric</string>
+    <string name="measurement_system_summary">Valitse Englanti (tuumamurtol ja mailia) tai metriyksikkö (cm ja km)</string>
+    <string name="miles">mailia</string>
+    <string name="kilometers">kilometriä</string>
+    <string name="archive_data_title">Poista tai Arkisto Askeltiedot</string>
+    <string name="archive_data_summary">Kun askel tiedot poistetaan, arkistoi vanhoja tietoja tai yksinkertaisesti poista ne?</string>
+    <string name="pref_scan_heart_rate">Etsi laitteita sykkeen mittaamiseen?</string>
+    <string name="pref_scan_heart_rate_summary">Etsi Bluetooth sykkeen mittalaitteita</string>
+    <string name="scan_confirm">Etsi laitteita sykkeen mittaamiseen?</string>
+    <string name="scan_confirm_text">Havaitseminen laitteet kestää useita minuutteja. Tällä hetkellä tunnetut laitteet:</string>
+</resources>

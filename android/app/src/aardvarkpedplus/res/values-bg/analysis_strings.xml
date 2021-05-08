@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">крачкомер Aardvark плюс</string>
+    <string name="title_section1">Стъпки на час</string>
+    <string name="title_section2">Стъпки на ден</string>
+    <string name="title_section3">Разстояние на час</string>
+    <string name="title_section4">Разстояние на ден</string>
+    <string name="title_section5">Стъпка ритъм</string>
+    <string name="title_section6">Aardvark настройки</string>
+    <string name="action_stopservice">спиране крачкомер</string>
+    <string name="action_startservice">Тичам крачкомер</string>
+    <string name="action_importstepfile">Импорт на данни от файл Архив стъпка</string>
+    <string name="action_exportstepfile">Стъпка база данни за износ към файл</string>
+    <string name="action_selectimportfile">Изберете файла за импортиране</string>
+    <string name="action_selectexportfile">Изберете файл за износ</string>
+    <string name="pref_step_counter">Предпочитам интегрирани стъпка брояч</string>
+    <string name="pref_step_counter_summary">Използване на вътрешния крачкомер в мобилно устройство, не Aardvark стъпка брояч (Ако е налична)</string>
+    <string name="aardvark_about_summary">Aardvark Ped Analysis version 1.0\n&#169;copyright 2015 Aardvark Visual Software</string>
+    <string name="aardvark_build_id">Undefined</string>
+    <string name="pref_step_retention_time_title">Изчистете след данни</string>
+    <string name="pref_stride_length_title">Дължина на крачката</string>
+    <string name="stride_length_summary_english">Дължина на крачката в инчове \n (използван за изчисляване на разстоянието)</string>
+    <string name="stride_length_summary_metric">Дължина на крачката в см \n (използван за изчисляване на разстоянието)</string>
+    <string name="measurement_system_title">измерване система</string>
+    <string name="measurement_system_default">metric</string>
+    <string name="measurement_system_summary">Изберете Английски (инча и мили) или метрични (cm км)</string>
+    <string name="miles">мили</string>
+    <string name="kilometers">километри</string>
+    <string name="archive_data_title">Изтриване или архивни стъпки данни</string>
+    <string name="archive_data_summary">Когато стъпка данни ще бъдат изтрити, архивиране на стари данни или просто да го изтриете?</string>
+    <string name="pref_scan_heart_rate">Търсене на устройство за измерване на пулса</string>
+    <string name="pref_scan_heart_rate_summary">Търсене за Bluetooth устройства за измерване на пулса</string>
+    <string name="scan_confirm">Търсене на устройство за измерване на пулса?</string>
+    <string name="scan_confirm_text">Откритие Device може да отнеме няколко минути. Известна устройства:</string>
+</resources>

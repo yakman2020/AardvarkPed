@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_app_name">aardvark ped widget бесплатно</string>
+    <string name="num_steps">   0</string>
+    <string name="num_steps_label">шагов</string>
+    <string name="distance">   0</string>
+    <string name="distance_label_metric">расстояние км</string>
+    <string name="distance_label_english">расстояние ми</string>
+    <string name="reset_label">сбросить</string>
+    <string name="time_start">00:00:00am</string>
+    <string name="elapsed_time">00:00:00</string>
+    <string name="time_start_label">начала</string>
+    <string name="elapsed_time_label">прошло</string>
+    <string name="heart_rate">000</string>
+</resources>

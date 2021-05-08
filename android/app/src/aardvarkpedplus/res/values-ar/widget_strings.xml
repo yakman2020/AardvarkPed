@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_app_name">مقياس الخطوات أردفرك</string>
+    <string name="num_steps">   0</string>
+    <string name="num_steps_label">خطوات</string>
+    <string name="distance">   0</string>
+    <string name="distance_label_metric">المسافة كم</string>
+    <string name="distance_label_english">المسافة ميلا</string>
+    <string name="reset_label">إعادة ضبط</string>
+    <string name="time_start">00:00:00am</string>
+    <string name="elapsed_time">00:00:00</string>
+    <string name="time_start_label">البدء</string>
+    <string name="elapsed_time_label">المنقضي</string>
+    <string name="heart_rate">000</string>
+</resources>

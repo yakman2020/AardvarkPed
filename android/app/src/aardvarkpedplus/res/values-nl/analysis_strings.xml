@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aardvark Stappenteller Plus</string>
+    <string name="title_section1">Stappen per Uur</string>
+    <string name="title_section2">Stappen per Dag</string>
+    <string name="title_section3">Afstand per Uur</string>
+    <string name="title_section4">Afstand per Dag</string>
+    <string name="title_section5">Stap Cadans</string>
+    <string name="title_section6">Aardvark Ped Instellingen</string>
+    <string name="action_stopservice">Service stoppen</string>
+    <string name="action_startservice">Service starten</string>
+    <string name="action_importstepfile">Stap gegevens importeren van archiefbestand</string>
+    <string name="action_exportstepfile">Stap gegevens exporteren naar archiefbestand</string>
+    <string name="action_selectimportfile">Selecteer te importeren bestand</string>
+    <string name="action_selectexportfile">Selecteer bestand voor export</string>
+    <string name="pref_step_counter">Liever geïntegreerde stappenteller</string>
+    <string name="pref_step_counter_summary">Gebruik de apparaten ingebouwde stappenteller toen plaats beschikbaar de Aardvarken teller.</string>
+    <string name="aardvark_about_summary">Aardvark Ped Analysis version 1.0\n&#169;copyright 2015 Aardvark Visual Software</string>
+    <string name="aardvark_build_id">Undefined</string>
+    <string name="pref_step_retention_time_title">Verwijder oude stap data na</string>
+    <string name="pref_stride_length_title">Staplengte</string>
+    <string name="stride_length_summary_english">Staplengte in Inch\n(voor de berekening op afstand)</string>
+    <string name="stride_length_summary_metric">Staplengte in cm\n (voor de berekening op afstand)</string>
+    <string name="measurement_system_title">Meetsysteem</string>
+    <string name="measurement_system_default">metric</string>
+    <string name="measurement_system_summary">Amerikaanse systeem (inches en mijl) of Metrische (Cm en Km)</string>
+    <string name="miles">Mijl</string>
+    <string name="kilometers">Kilometer</string>
+    <string name="archive_data_title">Archief oude stap data</string>
+    <string name="archive_data_summary">Wanneer stap data is gedaald, archiveren de oude gegevens of verwijder het enkel?</string>
+    <string name="pref_scan_heart_rate">Scannen op hartslag apparaat</string>
+    <string name="pref_scan_heart_rate_summary">Scan voor bluetooth hartslag apparaten</string>
+    <string name="scan_confirm">Scannen op hartslag apparaaten</string>
+    <string name="scan_confirm_text">Scannning voor bluetooth hartslag apparaten zal enkele minuten duren.\nHuidige bekende apparaten:</string>
+</resources>

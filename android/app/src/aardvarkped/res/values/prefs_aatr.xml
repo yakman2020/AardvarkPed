@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AardvarkNumberPickerPreference">
+        <attr name="minValue" format="float" />
+        <attr name="maxValue" format="float" />
+        <attr name="setWrapSelectorWheel" format="boolean"/>
+        <attr name="availableValues" format="reference" />
+        <attr name="valueLabels" format="reference" />
+        <attr name="valueType"  format="integer" />
+    </declare-styleable>
+
+</resources>

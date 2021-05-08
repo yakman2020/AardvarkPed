@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feature_unavailable_message">Diese Funktion ist in der kostenlosen Version nicht verfügbar.\nUm diese Funktion nutzen Sie bitte die kostenpflichtige Version von Aardvark Pedometer an aktualisieren\n<a href="http://www.aardvarkvisualsoftware.com">www.aardvarkvisualsoftware.com</a> </string>
+</resources>
